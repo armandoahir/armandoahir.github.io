@@ -1,14 +1,21 @@
-<div class="header-container container">
-  <header>
-    <a href="{{ site.url }}" class="top-link">{{ site.name }}</a>
-      <ul class="nav">
-        <!--Change the  URL here if working on an absolute domain-->
-        <li style="margin-right: 12px;"><a href="{{ site.url }}">Home</a></li>
-        <li style="margin-right: 12px;"><a href="{{ site.url }}/about">Who am i</a></li>
-        {% if site.owner.github %}
-          <li style="margin-right: 12px;"><a href="{{ site.owner.github }}" target="_blank">Projects</a></li>
-        {% endif %}
-        <li style="margin-right: 12px;"><a href="{{ site.url }}/feed.xml">CV</a></li>
-      </ul>
-  </header>
-</div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+<header>
+    <h2 class="title">{{ site.title }}</h2>
+    <nav>
+        <p>
+            <a href="{{ site.url }}">Home</a> 
+            <a href="{{ site.url }}{{ site.Blog }}">Blog</a>
+            <a href="{{ site.url }}{{ site.Life }}">Life</a>
+        
+            {% for link in site.links %}
+                <a href="{{ site.url }}{{ link[1] }}">{{ link[0] }}</a>
+            {% endfor %}
+            
+            {% for link in site.special_links %}
+                    <a href="{{ link[1] }}">[{{ link[0] }}]</a>
+            {% endfor %}
+        </p>
+    </nav>
+</header>

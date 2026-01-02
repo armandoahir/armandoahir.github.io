@@ -1,36 +1,68 @@
-name: KRPTN
-description: >
-    KRPTN
-about: >
-    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+###########
+# site.title
 
-master_repo: false
-url:
+title: jekyllBear
+description: a minimal, text focused blog theme
+# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
+url: "https://knhash.in/jekyllBear" # the base hostname & protocol for your site
+# host: 0.0.0.0
+
+
+#########################
+# more settings
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 markdown: kramdown
-highlighter: rouge
 
-plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
-paginate: 4
+# sass:
+#   sass_dir: css
+#   style:    compressed
 
-logo:             logo.png
-disqus_shortname:
+collections:
+  my_tags:
+    output: true
+    permalink: /tagged/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: tagged
 
-rtl: false
-owner:
-  name:           krptn
-  avatar:         "/dist/assets/arma.jpg"
-  email:          "armandoahir@proton.me"
-  # Social networking links used in footer. Update and remove as you like.
-  #twitter: vinitkme
-  github: https://github.com/armandoahir
-  #stackexchange: https://stackoverflow.com/users/859112/vinit-kumar?tab=profile
-  #linkedin: https://www.linkedin.com/in/vinitatlinkedin
-  # For Google Authorship https://plus.google.com/authorship
-  #google_plus:
+# baseurl: ""
+permalink: /blog/:slug
+timezone: America/New_York
+future: false
 
-# Analytics and webmaster tools stuff goes here
-#google_analytics:
-#google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
+exclude:
+- README.md
+- LICENSE.md
+
+exclude: [vendor]
+
+Blog: /blog
+Life: /life
+
+# Add general links to site pages here
+links:
+  # Resume: /assets/resume.pdf
+  
+
+# Add links for more focus here
+special_links:
+  # "Search": https://duckduckgo.com
