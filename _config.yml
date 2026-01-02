@@ -1,8 +1,8 @@
 # Site settings
-title_left    : "KR"
-title_right   : "PTN" # default: ""
+#title_left    : "KR"
+title_right   : "KRPTN" # default: ""
 description   : "Personal blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+keywords      : "Software engineering, Computers,Electronics,Lisa ann,blog, web, thinkspace"
 url           : https://armandoahir.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
