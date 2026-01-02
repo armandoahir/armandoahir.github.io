@@ -19,7 +19,7 @@ disqus_shortname:
 rtl: false
 owner:
   name:           krptn
-  avatar:         "/dist/assets/arma.jpeg"
+  avatar:         "/dist/assets/arma.jpg"
   email:          "armandoahir@proton.me"
   # Social networking links used in footer. Update and remove as you like.
   #twitter: vinitkme
