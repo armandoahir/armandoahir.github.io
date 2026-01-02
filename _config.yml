@@ -29,7 +29,7 @@ sass:
 # Author settings
 author:
   name     : "Armando Ahir"
-
+  avatar   : "/assets/images/arma.png"
 plugins:
   - jekyll-sitemap
   - bourbon
