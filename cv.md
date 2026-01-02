@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: CV
+permalink: /CV/
 ---
 
-### Sample Portfolio
+### CV
 
 These are screencaps from Chungking Express
 

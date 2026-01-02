@@ -43,7 +43,7 @@ permalink: /:year/:month/:day/:title/
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: armandoahir@proton.me
-  facebook:
+  #facebook:
   github: github.com/armandoahir
   #instagram: andrewhwanpark
   #linkedin: andrewhwanpark
