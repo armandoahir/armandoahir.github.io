@@ -5,7 +5,6 @@ permalink: /cv/
 ---
 
 <div class="cv-page">
-  <h1>My currivulum vitae</h1>
 
   <div class="pdf-container">
     <iframe 
@@ -20,20 +19,6 @@ permalink: /cv/
       </p>
     </iframe>
   </div>
-  
-  <!-- Link download -->
-  <div class="cv-links">
-    <a href="{{ '/assets/cv.pdf' | relative_url }}" 
-       class="button" 
-       download="CV.pdf">
-       📥 Scarica PDF
-    </a>
-    <a href="{{ '/assets/cv.tex' | relative_url }}" 
-       class="button secondary">
-       📝 Sorgente LaTeX
-    </a>
-  </div>
-</div>
 
 <!-- Stili -->
 <style>
