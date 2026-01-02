@@ -4,7 +4,7 @@ title: About
 ---
 ## About {{ site.name }}
 
-<!-- <img class="user-avatar" src="{{ site.owner.avatar }}"> -->
+<img class="user-avatar" src="{{ site.owner.avatar }}">
 
 Armando Ahir alias KRPTN, a software engineer based in Italy, who likes to build, develop and deploy some stuff.
 
