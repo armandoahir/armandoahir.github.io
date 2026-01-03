@@ -14,7 +14,7 @@ permalink: /about/
     
     <p class="tagline">Software Engineer • Italy 🇮🇹</p>
     
-    <p>I'm a software engineer based in Italy, documenting my journey and  computer science, embedded systems and cybersecurity  through this blog.</p>
+    <p>I'm a software engineer based in Italy, documenting my journey in computer science, embedded systems and cybersecurity  through this blog.</p>
     
     <div class="contacts-section">
       <h2>📬 Main contacts</h2>
