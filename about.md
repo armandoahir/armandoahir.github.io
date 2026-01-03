@@ -14,7 +14,7 @@ permalink: /about/
     
     <p class="tagline">Software Engineer • Italy 🇮🇹</p>
     
-    <p>I'm a passionate software engineer based in Italy, documenting my journey and insights in computer science through this blog.</p>
+    <p>I'm a software engineer based in Italy, documenting my journey and  computer science, embedded systems and cybersecurity  through this blog.</p>
     
     <div class="contacts-section">
       <h2>📬 Main contacts</h2>
@@ -32,7 +32,7 @@ permalink: /about/
           <a href="mailto:armandoahir@proton.me" class="contact-link secure">
             armandoahir@proton.me
           </a>
-          <small>(ProtonMail - encrypted)</small>
+          <small>(Encrypted)</small>
         </li>
       </ul>
     </div>
