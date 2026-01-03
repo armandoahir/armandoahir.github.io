@@ -12,12 +12,12 @@ permalink: /about/
   <div class="content-cell">
     <h1>Armando Ahir <span class="alias">alias Krptn</span></h1>
     
-    <p class="tagline">Software Engineer • Italy 🇮🇹</p>
+    <p class="tagline">Software engineer</p>
     
-    <p>I'm a software engineer based in Italy, documenting my journey in computer science, embedded systems and cybersecurity  through this blog.</p>
+    <p>Based in Italy, documenting my journey in computer science, embedded systems and cybersecurity through this blog.</p>
     
     <div class="contacts-section">
-      <h2>📬 Main contacts</h2>
+      <h2>Contacts</h2>
       <ul class="contact-list">
         <li>
           <span class="contact-icon">📩</span>
