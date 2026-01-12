@@ -14,7 +14,7 @@ permalink: /about/
     
     <p class="tagline">Software engineer</p>
     
-    <p>Based in Italy, documenting my journey in computer science, embedded systems and cybersecurity through this blog.</p>
+    <p>Based in Italy, documenting my journey in computer science, embedded systems and cybersecurity through this blog. Amateur chess player since 2021 (2100). </p>
     
     <div class="contacts-section">
       <h2>Contacts</h2>
