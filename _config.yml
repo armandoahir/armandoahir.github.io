@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: A R M A
+description: Personal BLOG.
 
-url: https://long-haul.netlify.app
+url:
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
@@ -27,15 +27,15 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
+    github: armandoahir
+    twitter:
+    facebook:
+    email: armandoahir@proton.me
+    linkedin:
+    youtube:
     tumblr: i-am-a-fish
 
 google_analytics: "UA-58263416-1"
 
 disqus:
-    shortname: brianmaierjr
+    shortname: arma
