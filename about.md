@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About Long Haul
+title: About
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
+	<h1 class="pageTitle">About ARMA </h1>
 	<img src="{{ '/assets/img/arma.png' | relative_url }}" alt="">
 	<p class="intro"> Hi, welcome into my personal blog.
 	<p>he globe time and time again. Take it for a spin.</p>
