@@ -8,7 +8,7 @@ permalink: /about/
 .about-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 24px;
 }
 .about-img { 
@@ -16,7 +16,7 @@ permalink: /about/
   margin-bottom: 8px;
 }
 .caption {
-  text-align: right;
+  text-align: center;
 }
 p { 
   text-indent: 0 !important; 
