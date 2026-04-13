@@ -10,7 +10,7 @@ permalink: /birding-list/
   margin-bottom: 8px;
 }
 #species-count {
-  color: #fcba03;
+  color: #000080;
   font-weight: bold;
 }
 .species-list {
