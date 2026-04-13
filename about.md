@@ -16,14 +16,10 @@ ul { padding-left: 1.2rem; }
 
 This is my personal space on the internet, where I share notes, projects, photos, and reflections.
 
----
-
 ## Interests
-
+---
 - **STEM** — Electronics, software development, and prototyping.
 - **Chess** — Retired chess player. [Visit my Chess.com profile](https://www.chess.com/member/itsarma)
 - **Birding** — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }})
-
----
 
 For my skills and work experiences: [View my CV]({{ '/assets/files/cv.pdf' | relative_url }})
