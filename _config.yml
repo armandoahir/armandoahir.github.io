@@ -16,7 +16,6 @@
 title: Arma Labs
 email: armandoahir31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An inarguably well-designed Jekyll theme.
 baseurl: "/hitchens" # the subpath of your site, e.g. /blog
 url: "https://www.armalabs.cc.cd" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
