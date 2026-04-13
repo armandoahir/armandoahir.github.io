@@ -26,8 +26,8 @@ permalink: /birding-list/
   border-bottom: 1px solid #eee;
 }
 .species-thumb {
-  width: 44px;
-  height: 44px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid #ddd;
