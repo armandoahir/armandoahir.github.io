@@ -5,9 +5,18 @@ permalink: /about/
 ---
 
 <style>
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
 .about-img { 
-  display: block; 
-  margin: 0 0 12px 0; 
+  display: block;
+  margin-bottom: 8px;
+}
+.caption {
+  text-align: right;
 }
 p { 
   text-indent: 0 !important; 
@@ -15,14 +24,9 @@ p {
 ul { 
   padding-left: 1.2rem; 
 }
-.caption {
-  text-align: right;
-  margin-top: 8px;
-  margin-bottom: 20px;
-}
 </style>
 
-<div>
+<div class="about-section">
   <img src="{{ '/assets/images/arma.png' | relative_url }}" alt="Armando Ahir" class="about-img" style="width: 160px; border-radius: 8px;">
   <div class="caption">
     <strong>Armando Ahir</strong>, student in computer science engineering, based in Italy.<br>
