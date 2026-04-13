@@ -56,6 +56,10 @@ a {
   color: $text-color;
 }
 
+a:hover {
+  color: #800020;  /* rosso bordeaux */
+}
+
 a:focus {
   outline: 1px dashed $text-color;
 }
@@ -115,7 +119,7 @@ figcaption {
 .home {
   max-width: 24em;
   margin: auto;
-  padding: 4em 1em;
+  padding: 0.5em 0.25em;
 }
 
 .content-title {
