@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="{{ '/assets/img/arma.png' | relative_url }}" alt="Armando Ahir" style="width: 120px; border-radius: 8px; margin-bottom: 16px;">
+
 **Armando Ahir**, student in computer science engineering, based in Italy.
 
 This is my personal space on the internet, where I share notes, projects, photos, and reflections.
