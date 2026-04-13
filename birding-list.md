@@ -21,13 +21,13 @@ permalink: /birding-list/
 .species-list li {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 8px 0;
+  gap: 8px;
+  padding: 5px 0;
   border-bottom: 1px solid #eee;
 }
 .species-thumb {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid #ddd;
