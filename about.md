@@ -34,10 +34,10 @@ ul {
   </div>
 </div>
 
-## Interests
+**Interests**
 
-- **STEM** — Electronics, software development, and prototyping.
-- **Chess** — Retired chess player. [Visit my Chess.com profile](https://www.chess.com/member/itsarma)
-- **Birding** — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }})
-
-For my skills and work experiences: [view my CV]({{ '/assets/files/cv.pdf' | relative_url }})
+- STEM — Electronics, software development, and prototyping.
+- Chess — Retired chess player. [Visit my Chess.com profile](https://www.chess.com/member/itsarma)
+- Birding — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }})
+**Work**
+For my skills and work experiences [view my CV]({{ '/assets/files/cv.pdf' | relative_url }})
