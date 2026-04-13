@@ -38,6 +38,7 @@ ul {
 
 - STEM — Electronics, software development, and prototyping.
 - Chess — Retired chess player. [Visit my Chess.com profile](https://www.chess.com/member/itsarma)
-- Birding — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }})
+- Birding — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }}) <br>
+
 **Work**
 For my skills and work experiences [view my CV]({{ '/assets/files/cv.pdf' | relative_url }})
