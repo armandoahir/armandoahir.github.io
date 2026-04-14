@@ -28,7 +28,6 @@
       padding: 2rem 1.8rem 2.2rem 1.8rem;
     }
 
-    /* header area */
     .header-flex {
       display: flex;
       flex-wrap: wrap;
@@ -74,7 +73,6 @@
       margin-right: 0.2rem;
     }
 
-    /* two-column grid — compact but airy */
     .two-col-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -82,7 +80,6 @@
       margin: 1.2rem 0 1.5rem 0;
     }
 
-    /* each list item styled for density and readability */
     .species-list-compact {
       list-style: none;
       margin: 0;
@@ -106,7 +103,6 @@
       margin: 0 -4px;
     }
 
-    /* thumbnail styling – fixed size, rounded */
     .species-thumb {
       width: 64px;
       height: 64px;
@@ -126,7 +122,7 @@
 
     .bird-info {
       flex: 1;
-      min-width: 0; /* avoid overflow */
+      min-width: 0;
     }
 
     .bird-name {
@@ -165,7 +161,6 @@
       flex-shrink: 0;
     }
 
-    /* small note / footer */
     .footer-note {
       margin-top: 2rem;
       border-top: 1px solid #e0e9d7;
@@ -224,7 +219,6 @@
       }
     }
 
-    /* preserve links accessibility */
     a {
       text-decoration: none;
       display: flex;
@@ -239,10 +233,9 @@
       border-radius: 16px;
     }
 
-    /* custom scrollbar */
     ::-webkit-scrollbar {
       width: 6px;
-      background: #e9efE2;
+      background: #e9efe2;
     }
     ::-webkit-scrollbar-thumb {
       background: #baceaa;
@@ -266,11 +259,8 @@
     ✨ my personal bird journal — each photo links to high-res original (Cornell Lab Macaulay Library)
   </p>
 
-  <!-- TWO-COLUMN LAYOUT: list items split left/right via CSS columns but preserving order -->
   <div class="two-col-grid" id="bird-grid">
-    <!-- left column container -->
     <ul class="species-list-compact" id="col-left"></ul>
-    <!-- right column container -->
     <ul class="species-list-compact" id="col-right"></ul>
   </div>
 
@@ -281,7 +271,7 @@
 </div>
 
 <script>
-  // ----- BIRD DATA (exactly as provided, but we keep all info for two-column distribution)
+  // Dati degli uccelli in ordine cronologico
   const birdEntries = [
     { common: "Coot", latin: "Fulica atra", date: "21.02.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/622103449/1200" },
     { common: "Mallard", latin: "Anas platyrhynchos", date: "21.02.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1200" },
@@ -317,19 +307,9 @@
     { common: "Great spotted woodpecker", latin: "Dendrocopos major", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256707351/1800" },
     { common: "European goldfinch", latin: "Carduelis carduelis", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409481/1800" },
     { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951041/1800" },
-    { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/257827951/1200" } // last entry uses same asset as hooded crow? Actually hooded crow had 257827951 but swift uses original 44951041? I'll keep consistent: but provided entry had common swift with asset 44951041. I fix based on original HTML: Common swift used asset 44951041/1800
+    { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951041/1800" }
   ];
 
-  // fix last entry: common swift photo as original from the HTML: asset 44951041/1800. I'll override with correct image
-  // overwriting the swift entry to exactly match original (since original HTML had that image for swift)
-  birdEntries[birdEntries.length-1] = { 
-    common: "Common swift", latin: "Apus apus", date: "11.04.2026", 
-    img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951041/1800" 
-  };
-  
-  // additionally, European greenfinch had 254741801/1800 (correct), all good.
-
-  // Helper: build HTML for a single bird item
   function createBirdItem(bird) {
     const li = document.createElement('li');
     const link = document.createElement('a');
@@ -342,6 +322,11 @@
     img.alt = bird.common;
     img.className = "species-thumb";
     img.loading = "lazy";
+    
+    // Gestione errori di caricamento immagini
+    img.onerror = function() {
+      this.src = 'https://via.placeholder.com/64x64?text=No+Image';
+    };
     
     link.appendChild(img);
     
@@ -371,7 +356,6 @@
     return li;
   }
 
-  // Split array into two columns for balanced display (preserve order)
   function distributeColumns(arr) {
     const mid = Math.ceil(arr.length / 2);
     const leftCol = arr.slice(0, mid);
@@ -384,25 +368,20 @@
     const leftContainer = document.getElementById('col-left');
     const rightContainer = document.getElementById('col-right');
     
-    // clear
     leftContainer.innerHTML = '';
     rightContainer.innerHTML = '';
     
-    // populate left column
     leftCol.forEach(bird => {
       leftContainer.appendChild(createBirdItem(bird));
     });
-    // populate right column
+    
     rightCol.forEach(bird => {
       rightContainer.appendChild(createBirdItem(bird));
     });
     
-    // update total species count
-    const total = birdEntries.length;
-    document.getElementById('species-count').innerText = total;
+    document.getElementById('species-count').innerText = birdEntries.length;
   }
   
-  // set dynamic date in footer (Jekyll style "now" simulation)
   function setDynamicDate() {
     const dateElem = document.getElementById('dynamic-date');
     const now = new Date();
@@ -411,7 +390,6 @@
     dateElem.innerHTML = `📅 last updated: ${formattedDate}`;
   }
   
-  // initialization
   document.addEventListener("DOMContentLoaded", () => {
     renderTwoColumns();
     setDynamicDate();
