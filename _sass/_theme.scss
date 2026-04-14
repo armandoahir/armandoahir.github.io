@@ -36,7 +36,21 @@ body {
 
 .header {
   @include flex(0, 0, auto);
-  background: darken($backgroundColour, 10%);
+  background: $navy-blue; // Barra Blu Navy
+  
+  .container {
+    // Questo assicura che i testi (logo, descrizioni) siano grigi
+    color: $light-gray; 
+  }
+
+  // Forza i link della navigazione a essere grigio chiaro
+  .nav a, .item--nav a {
+    color: $light-gray;
+    
+    &:hover {
+      color: $pure-red; // Hover rosso anche nella nav
+    }
+  }
 }
 
 .logo {
