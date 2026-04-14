@@ -1,10 +1,10 @@
 // Colours
-$bodyColour: #46412A;
-$headingColour: darken($bodyColour, 5%);
-$linkColour: #5B5BFF;
+$bodyColour: #191970;           // Navy blue per il testo principale
+$headingColour: #12124d;        // Navy leggermente più scuro per i titoli
+$linkColour: #5B5BFF;           // Blu brillante per i link (opzionale, puoi mantenerlo)
 $hoverColour: darken($linkColour, 10%);
-$captionColour: lighten($headingColour, 40%);
+$captionColour: lighten(#191970, 40%); // Navy più chiaro per didascalie
 $white: #fff;
 
-$backgroundColour: #ffefc8;
-$codeBackgroundColour: darken($backgroundColour, 5%);
+$backgroundColour: #FFFFF0;     // Avorio (Ivory)
+$codeBackgroundColour: darken($backgroundColour, 5%); // Avorio leggermente più scuro
