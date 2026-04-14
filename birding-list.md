@@ -5,7 +5,7 @@ permalink: /birding-list/
 ---
 
 <style>
-/* Piuma verde in alto */
+/* Piuma verde in alto - come la prima versione */
 .feather-decoration {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -19,11 +19,6 @@ permalink: /birding-list/
 @keyframes gentleFloat {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-5px); }
-}
-
-.feather-decoration span {
-  display: inline-block;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
 .bird-count {
@@ -47,19 +42,18 @@ permalink: /birding-list/
   padding: 5px 0;
   border-bottom: 1px solid #eee;
 }
-/* Thumbnail più piccole - da 80px a 50px */
+/* Thumbnail più piccole e quadrate - 50x50px */
 .species-thumb {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  border-radius: 50%; /* Cerchio invece di quadrato, più delicato */
-  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  border: 1px solid #ddd;
   flex-shrink: 0;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
 }
 .species-thumb:hover {
   transform: scale(1.05);
-  box-shadow: 0 2px 8px rgba(45,106,79,0.2);
 }
 .bird-name {
   flex: 1;
@@ -96,13 +90,12 @@ permalink: /birding-list/
 .intro-text {
   text-align: center;
   color: #557c55;
-  font-size: 0.9rem;
-  margin: 1rem 0 1.5rem 0;
+  font-size: 0.85rem;
+  margin: 0.5rem 0 1.5rem 0;
   padding-bottom: 0.8rem;
   border-bottom: 1px dashed #d4e6d4;
 }
 
-/* Footer */
 .footer-note {
   margin-top: 2rem;
   text-align: center;
@@ -113,20 +106,16 @@ permalink: /birding-list/
 }
 </style>
 
-<!-- Piuma verde in alto -->
+<!-- Piuma verde in alto - solo una piuma come la prima volta -->
 <div class="feather-decoration">
-  <span>🌿</span>
   <span>🪶</span>
-  <span>🌱</span>
-  <span>🪶</span>
-  <span>🍃</span>
 </div>
 
-<p class="bird-count">🪶Current bird count: <span id="species-count">0</span> species</p>
+<p class="bird-count">🐦 Current bird count: <span id="species-count">0</span> species</p>
 
 <div class="intro-text">
-  Personal birding life list — chronological sightings — each photo links to high-res original<br>
-  <span style="font-size:0.8rem;">from Cornell Lab Macaulay Library</span>
+  ✨ my personal birding life list — chronological sightings — each photo links to high-res original<br>
+  <span style="font-size:0.75rem;">📸 from Cornell Lab Macaulay Library</span>
 </div>
 
 <div class="two-column-grid" id="bird-list-container">
