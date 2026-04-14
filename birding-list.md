@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Birding life list
+title: Birding list
 permalink: /birding-list/
 ---
 
