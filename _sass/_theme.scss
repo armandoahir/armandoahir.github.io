@@ -56,11 +56,18 @@ body {
 .logo {
   display: inline-block;
   line-height: 0;
-  border-radius: 100%;
-  overflow: hidden;
+  border-radius: 0; // Togliamo il cerchio (il chip è quadrato/articolato)
+  overflow: visible;
+
   img {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem; // Dimensione bilanciata per la navbar
+    height: auto;
+    filter: brightness(0) invert(1); // TRUCCO: Trasforma il nero in bianco puro
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 

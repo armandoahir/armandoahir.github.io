@@ -1,12 +1,18 @@
 <nav class="nav">
   <ul class="list list--nav">
-    {%- assign allowed_pages = "About,Contacts,Blog" | split: "," -%}
+    
+    <li class="item item--nav{% if page.url == '/' %} item--current{% endif %}">
+      <a href="{{ site.baseurl }}/">Blog</a>
+    </li>
+
+    {%- assign static_pages = "About,Contacts" | split: "," -%}
     {%- for item in site.pages -%}
-      {%- if allowed_pages contains item.title -%}
+      {%- if static_pages contains item.title -%}
         <li class="item item--nav{% if item.url == page.url %} item--current{% endif %}">
           <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
       {%- endif -%}
     {%- endfor -%}
+
   </ul>
 </nav>
