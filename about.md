@@ -111,12 +111,11 @@ permalink: /about/
   <header class="profile-section">
     <img src="{{ '/assets/arma.jpeg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
     <h1 class="about-name">Armando Ahir</h1>
-    <p class="about-subtitle">Computer Science engineering  · Italy</p>
   </header>
 
   <section class="about-content">
     <p>
-      Welcome to my personal corner of the internet. I a Junior IT engineer student, passionate about how things work from complex software to embedded circuits. I use this space as my digital notebook for projects, technical reflections, and observations.
+      Welcome to my personal corner of the internet. I'm a junior IT engineer, passionate about how things work from complex software to embedded circuits. I use this space as my digital notebook for projects, technical reflections, and observations.
     </p>
     <h2>Interests & work experience</h2>
     <ul class="interests-list">
@@ -134,7 +133,7 @@ permalink: /about/
       </li>
       <li>
         <strong>Work experience</strong>
-        View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="cv-button">CV here</a>
+        View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
         </li>
     </ul>
   </section>
