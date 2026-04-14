@@ -1,17 +1,12 @@
 <nav class="nav">
   <ul class="list list--nav">
-    {% for item in site.pages %}
-      {% comment %} Aggiunta la condizione item.nav_exclude {% endcomment %}
-      {% unless item.nav_exclude == true or item.title == false or item.url contains "/page" or item.url contains "/404.html" or item.url contains "/feed." %}
-        <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-          {% if item.collectionpage %}
-            {% assign collectiondata = site.collections | where: "label", item.collectionpage | first %}
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ collectiondata.title }}</a>
-          {% else %}
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-          {% endif %}
+    {%- assign allowed_pages = "About,Contacts,Blog" | split: "," -%}
+    {%- for item in site.pages -%}
+      {%- if allowed_pages contains item.title -%}
+        <li class="item item--nav{% if item.url == page.url %} item--current{% endif %}">
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
-      {% endunless %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
 </nav>
