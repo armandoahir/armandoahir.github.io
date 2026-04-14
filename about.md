@@ -109,40 +109,33 @@ permalink: /about/
 <div class="about-container">
   
   <header class="profile-section">
-    <img src="{{ '/assets/arma.jpg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    <img src="{{ '/assets/arma.jpeg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
     <h1 class="about-name">Armando Ahir</h1>
-    <p class="about-subtitle">Computer Science Engineering · Italy</p>
+    <p class="about-subtitle">Computer Science engineering  · Italy</p>
   </header>
 
   <section class="about-content">
     <p>
-      Welcome to my personal corner of the internet. I am a student and maker 
-      passionate about how things work—from complex software architectures to 
-      embedded circuits and the natural world. This space serves as my digital 
-      notebook for projects, technical reflections, and observations.
+      Welcome to my personal corner of the internet. I a Junior IT engineer student, passionate about how things work from complex software to embedded circuits. I use this space as my digital notebook for projects, technical reflections, and observations.
     </p>
-    <h2>Interests</h2>
+    <h2>Interests & work experience</h2>
     <ul class="interests-list">
       <li>
-        <strong>STEM & Prototyping</strong>
+        <strong>STEM</strong>
         I focus on electronics, software development, and building functional systems. 
-        I enjoy exploring the boundary where hardware meets code.
       </li>
       <li>
         <strong>Chess</strong>
-        A retired chess player. 
-        Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+        A retired chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
       </li>
       <li>
         <strong>Birding</strong>
-        Since 2026, I have been documenting bird species across Italy. 
-        You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
+        Since 2026 i've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
       </li>
+      <li>
+        <strong>Work experience</strong>
+        View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="cv-button">CV here</a>
+        </li>
     </ul>
   </section>
-
-  <div class="cv-container">
-    <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="cv-button">Download CV</a>
-  </div>
-
 </div>
