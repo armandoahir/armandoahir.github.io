@@ -263,7 +263,7 @@
   </div>
 
   <p style="margin-bottom: 0.75rem; font-size: 0.85rem; color: #567d46; border-left: 3px solid #aacf9e; padding-left: 12px;">
-    ✨ my personal bird journal — each photo links to high-res original (Cornell Lab Macaulay Library)
+    my personal bird journal — each photo is took fromCornell Lab Macaulay Library.
   </p>
 
   <!-- TWO-COLUMN LAYOUT: list items split left/right via CSS columns but preserving order -->
@@ -276,7 +276,7 @@
 
   <div class="footer-note">
     <span>🌿 <strong>life list</strong> · sightings from Italy & Europe</span>
-    <span class="last-updated" id="dynamic-date">📅 last updated: --</span>
+    <span class="last-updated" id="dynamic-date"> last updated: --</span>
   </div>
 </div>
 
