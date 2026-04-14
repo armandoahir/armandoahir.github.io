@@ -15,10 +15,11 @@ permalink: /birding-list/
     font-family: inherit;
     padding: 2rem 0;
     color: #333;
-    max-width: 720px;
+    max-width: 720px; /* Coerente con le altre pagine del blog */
     margin: 0 auto;
   }
 
+  /* Rimosse ombreggiature e sfondo box */
   .birding-container {
     width: 100%;
     background: transparent;
@@ -35,15 +36,21 @@ permalink: /birding-list/
     padding-bottom: 1rem;
   }
 
-  /* Titolo in Navy Blue con Emoji */
+  /* Titolo con gradiente Navy Blue e Emoji */
   .birding-wrap .title-area h1 {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #1a365d; 
+    background: linear-gradient(135deg, #102a43, #1a365d); /* Gradiente Navy Blue */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
-  /* Contatore in Navy Blue */
+  /* Contatore in Navy Blue (senza card di sfondo) */
   .birding-wrap .bird-count-card {
     font-size: 1rem;
     font-weight: 500;
@@ -55,6 +62,17 @@ permalink: /birding-list/
     font-size: 1.3rem;
   }
 
+  /* Nota di fonte */
+  .birding-source-note {
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: #666;
+    border-left: 2px solid #eee;
+    padding-left: 12px;
+    font-style: italic;
+  }
+
+  /* Griglia a due colonne */
   .birding-wrap .two-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,6 +92,7 @@ permalink: /birding-list/
     border-bottom: 1px solid #f0f0f0;
   }
 
+  /* Miniature foto */
   .birding-wrap .species-thumb {
     width: 50px;
     height: 50px;
@@ -106,7 +125,7 @@ permalink: /birding-list/
     font-size: 0.8rem;
   }
 
-  /* Date in Navy Blue */
+  /* Date in Navy Blue solido */
   .birding-wrap .date-obs {
     font-size: 0.7rem;
     font-family: monospace;
@@ -115,12 +134,16 @@ permalink: /birding-list/
     opacity: 0.8;
   }
 
-  /* Footer in Navy Blue */
+  /* Footer in Navy Blue solido */
   .birding-wrap .footer-note {
     margin-top: 2rem;
     padding-top: 1rem;
     font-size: 0.8rem;
     color: #1a365d;
+  }
+
+  .birding-wrap .last-updated {
+    font-weight: 500;
   }
 
   .birding-wrap a {
@@ -148,16 +171,13 @@ permalink: /birding-list/
         <span id="species-count">0</span> species recorded
       </div>
     </div>
-
-    <p style="margin-bottom: 1.5rem; font-size: 0.85rem; color: #666; border-left: 2px solid #eee; padding-left: 12px; font-style: italic;">
+    <p class="birding-source-note">
       My personal bird journal — photos from Cornell Lab Macaulay Library
     </p>
-
     <div class="two-col-grid" id="bird-grid">
       <ul class="species-list-compact" id="col-left"></ul>
       <ul class="species-list-compact" id="col-right"></ul>
     </div>
-
     <div class="footer-note">
       <span class="last-updated" id="dynamic-date">last updated: --</span>
     </div>
