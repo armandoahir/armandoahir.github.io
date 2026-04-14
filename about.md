@@ -94,39 +94,27 @@ permalink: /about/
 <div class="about-container">
   
   <header class="profile-header">
-    <img src="{{ '/assets/arma.jpg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    <img src="{{ '/assets/arma.jpeg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
     <h1 class="name">Armando Ahir</h1>
-    <p class="subtitle">Computer Science Engineering · Italy</p>
+    <p class="subtitle">Software engineering · Italy</p>
   </header>
 
   <div class="bio-content">
     <p>
-      Welcome to my personal corner of the internet. I am a student and maker 
-      passionate about how things work—whether it's code, circuits, or the natural world. 
-      I use this space to document my projects, share technical notes, and keep track of my hobbies.
+      Welcome to my personal corner of the internet.
     </p>
   </div>
-
-  <h2 class="section-title">Interests</h2>
-
   <div class="interest-item">
-    <strong>🔬 STEM & Prototyping</strong>
-    Focusing on electronics, software development, and building functional systems from scratch. I enjoy the intersection of hardware and software.
+    <strong>STEM</strong>: focusing on electronics, software development, and building functional systems from scratch. I enjoy the intersection of hardware and software.
   </div>
-
   <div class="interest-item">
-    <strong>♟ Chess</strong>
-    A retired competitive player who still enjoys the strategic depth of the game. You can find me for a quick blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank" rel="noopener">Chess.com</a>.
+    <strong>Chess</strong>
+    Ex chess player. You can find me for a quick blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank" rel="noopener">Chess.com</a>.
   </div>
 
   <div class="interest-item">
     <strong>🪶 Birding</strong>
-    Since 2026, I've been dedicated to observing and documenting bird species across Italy. You can view my progress on my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
+    Since 2026. View my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
   </div>
-
-  <div class="cv-wrapper">
-    <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="cv-button">Download Curriculum Vitae</a>
-    <p style="font-size: 0.9rem; color: #a0aec0; margin-top: 10px;">Experience, skills, and academic background</p>
-  </div>
-
+  For personal work experience, this is <a href="{{ '/assets/files/cv.pdf' | relative_url }}" target="_blank">CV</a>
 </div>
