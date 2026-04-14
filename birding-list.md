@@ -5,12 +5,34 @@ permalink: /birding-list/
 ---
 
 <style>
+/* Piuma verde in alto */
+.feather-decoration {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+  letter-spacing: 8px;
+  color: #2d6a4f;
+  opacity: 0.7;
+  animation: gentleFloat 3s ease-in-out infinite;
+}
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.feather-decoration span {
+  display: inline-block;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
 .bird-count {
   font-size: 1.1em;
   margin-bottom: 8px;
+  text-align: center;
 }
 #species-count {
-  color: #000080;
+  color: #2d6a4f;
   font-weight: bold;
 }
 .species-list {
@@ -25,34 +47,43 @@ permalink: /birding-list/
   padding: 5px 0;
   border-bottom: 1px solid #eee;
 }
+/* Thumbnail più piccole - da 80px a 50px */
 .species-thumb {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  border-radius: 6px;
-  border: 1px solid #ddd;
+  border-radius: 50%; /* Cerchio invece di quadrato, più delicato */
+  border: 1px solid #c8e6c9;
   flex-shrink: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.species-thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(45,106,79,0.2);
 }
 .bird-name {
   flex: 1;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 .latin-name {
   font-style: italic;
   color: #888;
-  font-size: 0.85em;
+  font-size: 0.75em;
 }
 .date-obs {
   color: #aaa;
-  font-size: 0.8em;
+  font-size: 0.7em;
   white-space: nowrap;
+  background: #f5f5f0;
+  padding: 2px 8px;
+  border-radius: 20px;
 }
 
-/* Stili per il layout a due colonne compatto */
+/* Layout a due colonne compatto */
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem 2rem;
+  gap: 0.8rem 2rem;
 }
 
 @media (max-width: 768px) {
@@ -60,21 +91,54 @@ permalink: /birding-list/
     grid-template-columns: 1fr;
   }
 }
+
+/* Intro text */
+.intro-text {
+  text-align: center;
+  color: #557c55;
+  font-size: 0.9rem;
+  margin: 1rem 0 1.5rem 0;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px dashed #d4e6d4;
+}
+
+/* Footer */
+.footer-note {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #aaa;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
 </style>
 
-<p class="bird-count">🐦 Current bird count: <span id="species-count">0</span> species</p>
+<!-- Piuma verde in alto -->
+<div class="feather-decoration">
+  <span>🌿</span>
+  <span>🪶</span>
+  <span>🌱</span>
+  <span>🪶</span>
+  <span>🍃</span>
+</div>
 
-<p><em>This is my personal birding life list, where I track my sightings in chronological order.</em></p>
+<p class="bird-count">🪶Current bird count: <span id="species-count">0</span> species</p>
+
+<div class="intro-text">
+  Personal birding life list — chronological sightings — each photo links to high-res original<br>
+  <span style="font-size:0.8rem;">from Cornell Lab Macaulay Library</span>
+</div>
 
 <div class="two-column-grid" id="bird-list-container">
-  <!-- Left column -->
   <ul class="species-list" id="col-left"></ul>
-  <!-- Right column -->
   <ul class="species-list" id="col-right"></ul>
 </div>
 
+<div class="footer-note">
+  last updated: {{ "now" | date: "%B %d, %Y" }}
+</div>
+
 <script>
-// Dati degli uccelli (tutti i tuoi avvistamenti)
 const birdData = [
   { name: "Coot", latin: "Fulica atra", date: "21.02.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/622103449/1200" },
   { name: "Mallard", latin: "Anas platyrhynchos", date: "21.02.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1200" },
@@ -121,20 +185,14 @@ function buildBirdList() {
   const leftCol = document.getElementById('col-left');
   const rightCol = document.getElementById('col-right');
   
-  leftData.forEach(bird => {
-    leftCol.appendChild(createBirdItem(bird));
-  });
-  
-  rightData.forEach(bird => {
-    rightCol.appendChild(createBirdItem(bird));
-  });
+  leftData.forEach(bird => leftCol.appendChild(createBirdItem(bird)));
+  rightData.forEach(bird => rightCol.appendChild(createBirdItem(bird)));
   
   document.getElementById('species-count').innerText = birdData.length;
 }
 
 function createBirdItem(bird) {
   const li = document.createElement('li');
-  
   const link = document.createElement('a');
   link.href = bird.img;
   link.target = '_blank';
@@ -163,5 +221,3 @@ function createBirdItem(bird) {
 
 document.addEventListener('DOMContentLoaded', buildBirdList);
 </script>
-
-<p><em>Last updated: {{ "now" | date: "%B %d, %Y" }}</em></p>
