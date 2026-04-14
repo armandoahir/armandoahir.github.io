@@ -15,11 +15,10 @@ permalink: /birding-list/
     font-family: inherit;
     padding: 2rem 0;
     color: #333;
-    max-width: 720px; /* Allineato al tuo blog */
+    max-width: 720px;
     margin: 0 auto;
   }
 
-  /* Rimosso box shadow e bordi arrotondati eccessivi */
   .birding-container {
     width: 100%;
     background: transparent;
@@ -36,7 +35,7 @@ permalink: /birding-list/
     padding-bottom: 1rem;
   }
 
-  /* Titolo in Navy Blue */
+  /* Titolo in Navy Blue con Emoji */
   .birding-wrap .title-area h1 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -44,7 +43,7 @@ permalink: /birding-list/
     margin: 0;
   }
 
-  /* Contatore in Navy Blue senza card di sfondo */
+  /* Contatore in Navy Blue */
   .birding-wrap .bird-count-card {
     font-size: 1rem;
     font-weight: 500;
@@ -116,15 +115,12 @@ permalink: /birding-list/
     opacity: 0.8;
   }
 
+  /* Footer in Navy Blue */
   .birding-wrap .footer-note {
     margin-top: 2rem;
     padding-top: 1rem;
     font-size: 0.8rem;
-    color: #1a365d; /* Navy Blue */
-  }
-
-  .birding-wrap .last-updated {
-    font-weight: 500;
+    color: #1a365d;
   }
 
   .birding-wrap a {
@@ -139,10 +135,6 @@ permalink: /birding-list/
     .birding-wrap .two-col-grid {
       grid-template-columns: 1fr;
     }
-    .birding-wrap .header-flex {
-        flex-direction: column;
-        align-items: flex-start;
-    }
   }
 </style>
 
@@ -150,7 +142,7 @@ permalink: /birding-list/
   <div class="birding-container">
     <div class="header-flex">
       <div class="title-area">
-        <h1>Birding life list</h1>
+        <h1>🪶 Birding life list</h1>
       </div>
       <div class="bird-count-card">
         <span id="species-count">0</span> species recorded
