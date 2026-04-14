@@ -232,25 +232,20 @@
     <div class="header-flex">
       <div class="title-area">
         <h1>🪶 Birding life list</h1>
-        <p>chronological sightings — compact double column</p>
       </div>
       <div class="bird-count-card">
-        📋 <span id="species-count">0</span> species recorded
+        <span id="species-count">0</span> species recorded
       </div>
     </div>
-
     <p style="margin-bottom: 0.75rem; font-size: 0.85rem; color: #567d46; border-left: 3px solid #aacf9e; padding-left: 12px;">
-      ✨ my personal bird journal — each photo links to high-res original (Cornell Lab Macaulay Library)
+      my personal bird journal — each photo is took from Cornell Lab Macaulay Library
     </p>
-
     <div class="two-col-grid" id="bird-grid">
       <ul class="species-list-compact" id="col-left"></ul>
       <ul class="species-list-compact" id="col-right"></ul>
     </div>
-
     <div class="footer-note">
-      <span>🌿 <strong>life list</strong> · sightings from Italy & Europe</span>
-      <span class="last-updated" id="dynamic-date">📅 last updated: --</span>
+      <span class="last-updated" id="dynamic-date">last updated: --</span>
     </div>
   </div>
 </div>
@@ -289,8 +284,8 @@
     { common: "Grey heron", latin: "Ardea cinerea", date: "10.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258101091/1800" },
     { common: "Green woodpecker", latin: "Picus viridis", date: "10.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256154511/1800" },
     { common: "Great spotted woodpecker", latin: "Dendrocopos major", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256707351/1800" },
-    { common: "European goldfinch", latin: "Carduelis carduelis", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409481/1800" },
-    { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951041/1800" },
+    { common: "European goldfinch", latin: "Carduelis carduelis", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256707351/1800 },
+    { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409481/1800" },
     { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951041/1800" }
   ];
 
