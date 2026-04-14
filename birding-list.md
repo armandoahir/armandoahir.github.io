@@ -249,9 +249,10 @@
     </div>
   </div>
 </div>
+
 <script type="module">
-  // Importa la lista dal file esterno birds.js
-  import { birdEntries } from './birds.js';
+  
+  import { birdEntries } from '{{"/assets/js/birds.js" | relative_url}}';
   
   function createBirdItem(bird) {
     const li = document.createElement('li');
