@@ -1,85 +1,148 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
 <style>
-  body {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 15px;
-    font-family: serif; /* Luke predilige i font classici o monospaziati */
-    line-height: 1.5;
-    color: #111;
-    background-color: #fff;
-  }
+/* Allineamento al tema del blog */
+.about-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: inherit;
+}
 
-  h1, h2, h3 {
-    font-family: monospace;
-    font-weight: bold;
-  }
+/* Sezione profilo */
+.profile-section {
+  text-align: center;
+  margin: 2.5rem 0;
+}
 
-  img.profile-pic {
-    float: left;
-    margin: 0 20px 10px 0;
-    border: 2px solid #000;
-    max-width: 200px;
-  }
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1.5rem;
+  padding: 4px;
+  background: #fff;
+}
 
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.about-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
 
-  hr {
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-  }
+.about-subtitle {
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+}
 
-  pre, code {
-    background: #f4f4f4;
-    font-family: monospace;
-  }
+/* Contenuto testuale */
+.about-content {
+  color: #333;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
 
-  a {
-    color: #0000ee;
-  }
+.about-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
 
-  a:visited {
-    color: #551a8b;
-  }
+.interests-list {
+  list-style: none;
+  padding: 0;
+}
 
-  ul {
-    list-style-type: square;
-  }
+.interests-list li {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid #e0e0e0;
+}
+
+.interests-list strong {
+  display: block;
+  color: #1a1a1a;
+  margin-bottom: 0.2rem;
+}
+
+/* Bottone CV (stile identico al Submit del form) */
+.cv-container {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: #1a1a1a;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: opacity 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.cv-button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .about-name { font-size: 1.5rem; }
+  .profile-pic { width: 140px; height: 140px; }
+}
 </style>
 
-<div class="clearfix">
-  <img src="{{ '/assets/arma.jpg' | relative_url }}" alt="Photo of Armando Ahir" class="profile-pic">
-  <h1>Armando Ahir</h1>
-  <p><i>Computer Science Student / Maker / Minimalist</i></p>
-  <p>
-    Welcome. This is my corner of the world wide web. I am a computer science engineering 
-    student based in Italy.
-    I'm a minimalist, i believe in simple tools, efficient code, and 
-    understanding the systems we use daily.
-  </p>
+<div class="about-container">
+  
+  <header class="profile-section">
+    <img src="{{ '/assets/arma.jpg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    <h1 class="about-name">Armando Ahir</h1>
+    <p class="about-subtitle">Computer Science Engineering · Italy</p>
+  </header>
+
+  <section class="about-content">
+    <p>
+      Welcome to my personal corner of the internet. I am a student and maker 
+      passionate about how things work—from complex software architectures to 
+      embedded circuits and the natural world. This space serves as my digital 
+      notebook for projects, technical reflections, and observations.
+    </p>
+    <h2>Interests</h2>
+    <ul class="interests-list">
+      <li>
+        <strong>STEM & Prototyping</strong>
+        I focus on electronics, software development, and building functional systems. 
+        I enjoy exploring the boundary where hardware meets code.
+      </li>
+      <li>
+        <strong>Chess</strong>
+        A retired chess player. 
+        Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+      </li>
+      <li>
+        <strong>Birding</strong>
+        Since 2026, I have been documenting bird species across Italy. 
+        You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
+      </li>
+    </ul>
+  </section>
+
+  <div class="cv-container">
+    <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="cv-button">Download CV</a>
+  </div>
+
 </div>
-
-<hr>
-
-## Interests
-
-* **STEM:** i like to build things. Mostly focused on electronics, low-level software development, and functional prototyping.
-* **Chess:** former chess player; still enjoy the occasional blitz game. Find me on [Chess.com](https://www.chess.com/member/itsarma).
-* **Birding:** since 2026, i've been spending my time outdoors observing and cataloging bird species. You can see my log here: [Birding List]({{ '/birding-list' | relative_url }}).
-<hr>
-
-## Contact & Resources
-
-* **Curriculum Vitae:** [Download PDF]({{ '/assets/files/cv.pdf' | relative_url }})
-* **Email:** `yourname [at] provider [dot] com`
-* **RSS:** [Feed]({{ '/feed.xml' | relative_url }})
