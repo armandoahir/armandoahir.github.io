@@ -50,9 +50,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "arma." # Site name or title
-logo: "/assets/images/logo.png" # Site logo
+logo: "/assets/images/arma.png" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
 description: "" # Site description and default description
-url: "https://armalabs.cc.cd" # Site url
+url: "https://armandoahir.cc.cd" # Site url
 baseurl: ""
 lang: en-GB
