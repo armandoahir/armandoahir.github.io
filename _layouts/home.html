@@ -2,70 +2,25 @@
 layout: default
 ---
 
-{% if site.data.menu and site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include menu.html %}
-{% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include back-link.html %}
-{% else %}
-<header class="site-masthead">
-  <h1 style="font-size: 2.5rem; margin-bottom: 0.3rem;">
-    <a href="{{ '/' | prepend: site.baseurl }}" style="text-decoration: none; color: inherit;">
-      {{ site.title }}
-    </a>
-  </h1>
-  {% include menu.html %}
-    {% if site.title %}
-      <h2>
-        {{ site.description }}
-      </h2>
-    {% endif %}
-  </header>
-{% endif %}
+{% include site-header.html %}
 
-<main class="home" id="main" role="main" aria-label="Content">
-<!--
-     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-      Page {{ paginator.page }}
-    {% else %}
-     Contents 
-    {% endif %}
-  </h1>
--->
-  {% if site.paginate and site.paginate_path %}
-    
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
+<main class="main  container">
 
-    {% if paginator.total_pages > 1 %}
+	<div class="content">
 
-      <div class="post-pagination">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-        <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-      </div>
+    <article class="article  article--page  typeset">
 
-    {% endif %}
+			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+			<h1>{{ collectiondata.title }}</h1>
 
-  {% else %}
+			{{ collectiondata.description | markdownify }}
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
-  
-  {% endif %}
-    
+    </article>
+
+    {% include post-list.html %}
+
+  </div>
 
 </main>
+
+{% include site-footer.html %}
