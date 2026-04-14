@@ -33,7 +33,7 @@ const birdEntries = [
   { common: "Green woodpecker", latin: "Picus viridis", date: "10.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258101151/320" },
   { common: "Great spotted woodpecker", latin: "Dendrocopos major", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256154511/1200" },
   { common: "European goldfinch", latin: "Carduelis carduelis", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256706831/320" },
-  { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "hhttps://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409511/320" },
+  { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409481/1200" },
   { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/320" }
 ];
 export { birdEntries };
