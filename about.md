@@ -1,40 +1,43 @@
 ---
-title: About Garth
+layout: page
+title: About me
+permalink: /about/
 ---
 
-A really basic theme for Jekyll, using the official Jekyll theme implementation.
+<style>
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+.about-img { 
+  display: block;
+  margin-bottom: 8px;
+}
+.caption {
+  text-align: right;
+}
+p { 
+  text-indent: 0 !important; 
+}
+ul { 
+  padding-left: 1.2rem; 
+}
+</style>
 
-- [Fork on GitHub](https://github.com/daviddarnes/garth)
-- [Install Garth](https://github.com/daviddarnes/garth#installation)
+<div class="about-section">
+  <img src="{{ '/assets/images/arma.png' | relative_url }}" alt="Armando Ahir" class="about-img" style="width: 160px; border-radius: 8px;">
+  <div class="caption">
+    <strong>Armando Ahir</strong>, student in computer science engineering, based in Italy.<br>
+    This is my personal space on the internet, where I share notes, projects, photos, and reflections.
+  </div>
+</div>
 
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
+## Interests
 
-## Installation
+- **STEM** — Electronics, software development, and prototyping.
+- **Chess** — Retired chess player. [Visit my Chess.com profile](https://www.chess.com/member/itsarma)
+- **Birding** — Since 2026. [View my birding list]({{ '/birding-list' | relative_url }})
 
-### As a Jekyll theme
-
-1. Add `gem "garth-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: garth-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
-
-### As a GitHub Pages remote theme
-
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/garth` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/daviddarnes/garth#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE`, `screenshot.png`, `CNAME` and `garth-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
+For my skills and work experiences: [View my CV]({{ '/assets/files/cv.pdf' | relative_url }})
