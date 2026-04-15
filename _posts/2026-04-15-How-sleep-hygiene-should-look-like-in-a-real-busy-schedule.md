@@ -4,8 +4,9 @@ category: Wealth
 author: arma.
 ---
 
-There was a period in my life where I got sucked into the “self-help” and motivation tunnel. Paradoxically, those were the worst years of my life. What came out of it was the appearance of having everything under control when in reality, I had made no concrete progress. I just performed the illusion well.
+There was a period in my life where I got sucked into the “self-help” and motivation tunnel. Paradoxically, those were the worst years of my life. 
 <!-- more -->
+What came out of it was the appearance of having everything under control when in reality, I had made no concrete progress. I just performed the illusion well.
 
 During that time, I came across the usual productivity routines. In theory, they make sense. But the real world isn’t an ideal system, it’s noisy. There are always variables, disruptions, and uncertainties that shift outcomes away from what we plan.
 What often happens is that we end up spending more energy structuring our day than actually moving forward with our goals.
@@ -88,40 +89,18 @@ In simple terms:
 
 Here’s what I’ve found to be realistically effective—not idealized, but applicable.
 
-- Eliminate or minimize caffeine
-Caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
+- Eliminate or minimize caffeine: caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
 
-Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake—especially in the afternoon—is one of the highest-impact changes.
+Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake especially in the afternoon is one of the highest impact changes.
 
-- Prepare the Next Day in Advance
-Set up:
-- **Clothes  
-- **Breakfast  
-- **Meals  
-- **Work essentials  
-This reduces cognitive load before sleep. Fewer unresolved thoughts = less mental friction when falling asleep.
-- Keep Your Environment Clean and Orderly
-A chaotic environment creates low-level stress.
-
-Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
+- Prepare the next day in advance: clothes, breakfast, meals, work essentials. This reduces cognitive load before sleep.
+- Keep your environment clean and in order: a chaotic environment creates low-level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
 
 - Go to Bed Clean
-- **Shower and Change Clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.**
-- **Oral Hygiene: brushing your teeth (and using dental appliances if needed) is not just about hygiene—it creates a psychological “shutdown ritual.”**
+	- Shower and Change Clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
+	- Oral hygiene.
 
-- Relax Your Mind (Realistically)
-
-The advice to “avoid screens completely” is often impractical.
-If you’ve accumulated stress during the day, you need a way to release it.
-
-Options that *actually work*:
-- Watching a series or film  
-- Reading (digital or physical)  
-- Light, enjoyable content  
-
-The key is not the medium—it’s the **intentional cutoff**.
-Set a clear time where stimulation ends.
-There was a period in my life where I got sucked into the “self-help” and motivation tunnel. Paradoxically, those were the worst years of my life. What came out of it was the appearance of having everything under control, when in reality I had made no concrete progress—but I performed it well.
+- Relax Your Mind (Realistically): the advice to “avoid screens completely” is often impractical. If you’ve accumulated stress during the day, you need a way to release it. Watching a series or film, reading (digital or physical books) should be fine with a proper light dim. (Of course set a clear time where stimulation ends).
 
 ### Sources
 
