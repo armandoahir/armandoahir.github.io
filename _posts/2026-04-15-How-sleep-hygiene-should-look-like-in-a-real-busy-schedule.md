@@ -5,15 +5,13 @@ author: arma.
 ---
 
 There was a period in my life where I got sucked into the “self-help” and motivation tunnel. Paradoxically, those were the worst years of my life. What came out of it was the *appearance* of having everything under control—when in reality, I had made no concrete progress. I just performed the illusion well.
+<!-- more -->
 
 During that time, I came across the usual productivity routines. In theory, they make sense. But the real world isn’t an ideal system—it’s noisy. There are always variables, disruptions, and uncertainties that shift outcomes away from what we plan.
 
 What often happens is that we end up spending more energy structuring our day than actually moving forward with our goals.
-<!-- more -->
 
 Out of everything I explored back then, only a few ideas stuck with me. One of them is the importance of high-quality sleep.
-
----
 
 ## Why Sleep Became Non-Negotiable for Me
 
@@ -28,8 +26,6 @@ This led me to a simple but important question:
 > **What actually defines “good” sleep?**
 
 To answer that, we need to understand what the body does while we sleep.
-
----
 
 ## What Happens in Your Body During Sleep
 
@@ -85,8 +81,6 @@ When you consistently sleep at irregular times or too little, you create:
 
 This explains why you might feel wired after little sleep but crash later: your stress systems (like cortisol) temporarily compensate, but cannot sustain performance.
 
----
-
 ## What Happens When You Don’t Sleep Enough
 Sleep deprivation isn’t just about feeling tired.
 It impairs:
@@ -100,30 +94,30 @@ In simple terms:
 
 Here’s what I’ve found to be realistically effective—not idealized, but applicable.
 
-### 1. Eliminate or Minimize Caffeine
+1. Eliminate or Minimize Caffeine
 Caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
 
 Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake—especially in the afternoon—is one of the highest-impact changes.
-### 2. Prepare the Next Day in Advance
+2. Prepare the Next Day in Advance
 Set up:
 - Clothes  
 - Breakfast  
 - Meals  
 - Work essentials  
 This reduces cognitive load before sleep. Fewer unresolved thoughts = less mental friction when falling asleep.
-### 3. Keep Your Environment Clean and Orderly
+3. Keep Your Environment Clean and Orderly
 A chaotic environment creates low-level stress.
 
 Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
-### 4. Go to Bed Clean
+#### 4. Go to Bed Clean
 
-#### a. Shower and Change Clothes
+##### a. Shower and Change Clothes
 Your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
 
-#### b. Oral Hygiene
+##### b. Oral Hygiene
 Brushing your teeth (and using dental appliances if needed) is not just about hygiene—it creates a psychological “shutdown ritual.”
 
-### 5. Relax Your Mind (Realistically)
+5. Relax Your Mind (Realistically)
 
 The advice to “avoid screens completely” is often impractical.
 
@@ -137,10 +131,9 @@ Options that *actually work*:
 The key is not the medium—it’s the **intentional cutoff**.
 
 Set a clear time where stimulation ends.
-## Outro
-
 There was a period in my life where I got sucked into the “self-help” and motivation tunnel. Paradoxically, those were the worst years of my life. What came out of it was the appearance of having everything under control, when in reality I had made no concrete progress—but I performed it well.
-## Sources
+
+### Sources
 
 - Walker, M. (2017). *Why We Sleep: Unlocking the Power of Sleep and Dreams*  
 - National Institutes of Health (NIH) – Sleep and Circadian Rhythms  
