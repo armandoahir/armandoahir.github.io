@@ -15,11 +15,10 @@ permalink: /birding-list/
     font-family: inherit;
     padding: 2rem 0;
     color: #333;
-    max-width: 720px; /* Coerente con le altre pagine del blog */
+    max-width: 720px;
     margin: 0 auto;
   }
 
-  /* Rimosse ombreggiature e sfondo box */
   .birding-container {
     width: 100%;
     background: transparent;
@@ -50,11 +49,10 @@ permalink: /birding-list/
     gap: 10px;
   }
 
-  /* Contatore in Navy Blue (senza card di sfondo) */
   .birding-wrap .bird-count-card {
     font-size: 1rem;
     font-weight: 500;
-    color: #1a365d;
+    color: #1a365d; /* navy blue */ 
   }
 
   .birding-wrap .bird-count-card span {
@@ -62,17 +60,6 @@ permalink: /birding-list/
     font-size: 1.3rem;
   }
 
-  /* Nota di fonte */
-  .birding-source-note {
-    margin-bottom: 1.5rem;
-    font-size: 0.85rem;
-    color: #666;
-    border-left: 2px solid #eee;
-    padding-left: 12px;
-    font-style: italic;
-  }
-
-  /* Griglia a due colonne */
   .birding-wrap .two-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,7 +112,6 @@ permalink: /birding-list/
     font-size: 0.8rem;
   }
 
-  /* Date in Navy Blue solido */
   .birding-wrap .date-obs {
     font-size: 0.7rem;
     font-family: monospace;
@@ -134,7 +120,6 @@ permalink: /birding-list/
     opacity: 0.8;
   }
 
-  /* Footer in Navy Blue solido */
   .birding-wrap .footer-note {
     margin-top: 2rem;
     padding-top: 1rem;
@@ -171,8 +156,8 @@ permalink: /birding-list/
         <span id="species-count">0</span> species recorded
       </div>
     </div>
-    <p class="birding-source-note">
-      My personal bird journal — photos from Cornell Lab Macaulay Library
+    <p>
+      All photos are from Cornell Lab Macaulay Library
     </p>
     <div class="two-col-grid" id="bird-grid">
       <ul class="species-list-compact" id="col-left"></ul>
