@@ -37,32 +37,25 @@ Sleep is not passive. It is an active, highly regulated biological process essen
 
 During sleep, your body performs several critical functions:
 
-### 1. Memory Consolidation and Brain Processing
+1. Memory Consolidation and Brain Processing
 The brain reorganizes and stabilizes information acquired during the day. This process—known as **memory consolidation**—primarily occurs during deeper stages of sleep and REM (Rapid Eye Movement) sleep.
 
-### 2. Cardiovascular Recovery
-Heart rate and blood pressure decrease, reducing strain on the cardiovascular system. This “downtime” is essential for long-term heart health.
+2. Cardiovascular Recovery: heart rate and blood pressure decrease, reducing strain on the cardiovascular system. This “downtime” is essential for long-term heart health.
 
-### 3. Thermoregulation
-Core body temperature drops, which helps initiate and maintain sleep. This is why cooler environments tend to improve sleep quality.
+3. Thermoregulation: core body temperature drops, which helps initiate and maintain sleep. This is why cooler environments tend to improve sleep quality.
 
-### 4. Muscle Relaxation and Repair
+4. Muscle Relaxation and Repair
 Muscles relax, and tissue repair processes accelerate. Growth hormone is released, supporting recovery and regeneration.
 
-### 5. Hormonal Regulation
-Sleep plays a key role in balancing hormones, including:
+5. Hormonal Regulation: sleep plays a key role in balancing hormones, including:
 - **Leptin** (satiety hormone)
 - **Ghrelin** (hunger hormone)
 
 Sleep deprivation disrupts this balance, often increasing appetite and cravings.
 
-### 6. Immune System Maintenance
-The immune system strengthens during sleep. Chronic sleep deprivation is associated with increased susceptibility to infections and inflammation.
+6. Immune System Maintenance: the immune system strengthens during sleep. Chronic sleep deprivation is associated with increased susceptibility to infections and inflammation.
 
-### 7. REM Sleep and Dreaming
-During REM sleep, brain activity resembles wakefulness. This phase is linked to emotional regulation, creativity, and problem-solving.
-
----
+7. REM Sleep and Dreaming: during REM sleep, brain activity resembles wakefulness. This phase is linked to emotional regulation, creativity, and problem-solving.
 
 ## The Role of the Circadian Rhythm
 
