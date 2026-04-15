@@ -13,8 +13,7 @@ What often happens is that we end up spending more energy structuring our day th
 
 Out of everything I explored back then, only a few ideas stuck with me. One of them is the importance of high-quality sleep.
 
-## Why Sleep Became Non-Negotiable for Me
-
+### Why Sleep Became Non-Negotiable for Me
 I’ve noticed a consistent pattern:
 
 - If I sleep less than ~6.5 hours, I wake up with headaches and irritability.
@@ -27,10 +26,8 @@ This led me to a simple but important question:
 
 To answer that, we need to understand what the body does while we sleep.
 
-## What Happens in Your Body During Sleep
-
+### What Happens in Your Body During Sleep
 Sleep is not passive. It is an active, highly regulated biological process essential for survival.
-
 During sleep, your body performs several critical functions:
 
 1. Memory Consolidation and Brain Processing
@@ -65,7 +62,6 @@ The circadian rhythm is your body’s internal biological clock, operating on ro
 - Metabolism  
 
 ### Light as the Primary Signal
-
 The circadian rhythm is heavily influenced by light exposure:
 
 - **Morning light** → signals wakefulness, suppresses melatonin  
@@ -81,7 +77,7 @@ When you consistently sleep at irregular times or too little, you create:
 
 This explains why you might feel wired after little sleep but crash later: your stress systems (like cortisol) temporarily compensate, but cannot sustain performance.
 
-## What Happens When You Don’t Sleep Enough
+### What Happens When You Don’t Sleep Enough
 Sleep deprivation isn’t just about feeling tired.
 It impairs:
 - Cognitive performance (attention, decision-making)
@@ -90,11 +86,11 @@ It impairs:
 In simple terms:
 
 > Without sleep, your body cannot properly maintain, clean, and repair itself.
-## Practical Sleep Hygiene (What Actually Works)
+### Practical Sleep Hygiene (What Actually Works)
 
 Here’s what I’ve found to be realistically effective—not idealized, but applicable.
 
-1. Eliminate or Minimize Caffeine
+1. Eliminate or minimize caffeine
 Caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
 
 Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake—especially in the afternoon—is one of the highest-impact changes.
