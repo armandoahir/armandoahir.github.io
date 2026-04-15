@@ -150,14 +150,13 @@ permalink: /birding-list/
   <div class="birding-container">
     <div class="header-flex">
       <div class="title-area">
-        <h1>🪶 Birding life list</h1>
       </div>
       <div class="bird-count-card">
         <span id="species-count">0</span> species recorded
       </div>
     </div>
     <p>
-      All photos are from Cornell Lab Macaulay Library
+      🪶All photos are from Cornell Lab Macaulay Library
     </p>
     <div class="two-col-grid" id="bird-grid">
       <ul class="species-list-compact" id="col-left"></ul>
