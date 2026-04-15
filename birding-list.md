@@ -35,7 +35,6 @@ permalink: /birding-list/
     padding-bottom: 1rem;
   }
 
-  /* Titolo con gradiente Navy Blue e Emoji */
   .birding-wrap .title-area h1 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -155,18 +154,17 @@ permalink: /birding-list/
         <span id="species-count">0</span> species recorded
       </div>
     </div>
-    <p>
-      🪶All photos are from Cornell Lab Macaulay Library
-    </p>
     <div class="two-col-grid" id="bird-grid">
       <ul class="species-list-compact" id="col-left"></ul>
       <ul class="species-list-compact" id="col-right"></ul>
     </div>
     <div class="footer-note">
+      <span class="source">All photos are from Cornell Lab Macaulay Library</span>
       <span class="last-updated" id="dynamic-date">last updated: --</span>
     </div>
   </div>
 </div>
+
 
 <script type="module">
   import { birdEntries } from '{{"/assets/js/birds.js" | relative_url}}';
