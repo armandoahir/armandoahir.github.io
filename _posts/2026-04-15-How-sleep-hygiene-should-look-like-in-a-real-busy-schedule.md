@@ -39,9 +39,7 @@ The brain reorganizes and stabilizes information acquired during the day. This p
 - Muscle Relaxation and Repair
 Muscles relax, and tissue repair processes accelerate. Growth hormone is released, supporting recovery and regeneration.
 
-- Hormonal Regulation: sleep plays a key role in balancing hormones, including:
-- **Leptin** (satiety hormone)
-- **Ghrelin** (hunger hormone)
+- Hormonal Regulation: sleep plays a key role in balancing hormones, including: leptin(satiety hormone), ghrelin(hunger hormone).
 
 Sleep deprivation disrupts this balance, often increasing appetite and cravings.
 
