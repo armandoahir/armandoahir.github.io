@@ -49,26 +49,22 @@ Sleep deprivation disrupts this balance, often increasing appetite and cravings.
 
 - REM Sleep and Dreaming: during REM sleep, brain activity resembles wakefulness. This phase is linked to emotional regulation, creativity, and problem-solving.
 
-## The Role of the Circadian Rhythm
+### The Role of the Circadian Rhythm
 
 To understand sleep quality, you also need to understand the **circadian rhythm**.
-
 The circadian rhythm is your body’s internal biological clock, operating on roughly a 24-hour cycle. It regulates:
 
-- Sleep–wake timing  
-- Hormone release (e.g., melatonin, cortisol)  
-- Body temperature  
-- Metabolism  
+- Sleep–wake timing;  
+- Hormone release (e.g., melatonin, cortisol);
+- Body temperature:
+- Metabolism.  
 
-### Light as the Primary Signal
 The circadian rhythm is heavily influenced by light exposure:
 
 - **Morning light** → signals wakefulness, suppresses melatonin  
 - **Evening darkness** → triggers melatonin release, promoting sleep  
 
-Artificial light—especially blue light from screens—can delay melatonin production, effectively “shifting” your biological night.
-
-### Sleep Debt and Misalignment
+Artificial light especially blue light from screens—can delay melatonin production, effectively “shifting” your biological night.
 
 When you consistently sleep at irregular times or too little, you create:
 - **Sleep debt** (accumulated lack of rest)
