@@ -94,6 +94,7 @@ Here’s what I’ve found to be realistically effective—not idealized, but ap
 Caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
 
 Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake—especially in the afternoon—is one of the highest-impact changes.
+
 2. Prepare the Next Day in Advance
 Set up:
 - Clothes  
@@ -105,6 +106,7 @@ This reduces cognitive load before sleep. Fewer unresolved thoughts = less menta
 A chaotic environment creates low-level stress.
 
 Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
+
 4. Go to Bed Clean
 - Shower and Change Clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
 - Oral Hygiene: brushing your teeth (and using dental appliances if needed) is not just about hygiene—it creates a psychological “shutdown ritual.”
