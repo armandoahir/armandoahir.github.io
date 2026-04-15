@@ -150,6 +150,7 @@ permalink: /birding-list/
     <div class="header-flex">
       <div class="title-area">
       </div>
+      <span class="last-updated" id="dynamic-date">last updated: --</span>
       <div class="bird-count-card">
         <span id="species-count">0</span> species recorded
       </div>
@@ -160,7 +161,6 @@ permalink: /birding-list/
     </div>
     <div class="footer-note">
       <span class="source">All photos are from Cornell Lab Macaulay Library</span>
-      <span class="last-updated" id="dynamic-date">last updated: --</span>
     </div>
   </div>
 </div>
