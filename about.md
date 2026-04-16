@@ -22,7 +22,7 @@ permalink: /about/
 .profile-pic {
   width: 160px;
   height: 160px;
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
   border: 1px solid #e0e0e0;
   margin-bottom: 1.5rem;
@@ -109,8 +109,8 @@ permalink: /about/
 <div class="about-container">
   
   <header class="profile-section">
-    <img src="{{ '/assets/arma.jpeg' | relative_url }}" alt="Armando Ahir" class="profile-pic">
-    <h1 class="about-name">Armando Ahir</h1>
+    <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    <h1 class="about-name">mini arma</h1>
   </header>
 
   <section class="about-content">
