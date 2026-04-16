@@ -76,7 +76,7 @@ Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sen
 **Prepare the next day in advance**: clothes, breakfast, meals, work essentials. This reduces cognitive load before sleep.
 **Keep your environment clean and in order**: a chaotic environment creates low level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
 
-**Go to Bed Clean**
+**Go to bed clean**
 	- Shower and change clothes: your bed shouldn’t accumulate everything you encountered during the day public transport, surfaces, interactions.
 	- Oral hygiene. 
 
