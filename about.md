@@ -112,11 +112,12 @@ permalink: /about/
 
   <!-- PRIMA PARTE: TESTO AFFIANCATO ALL'IMMAGINE (due colonne) -->
   <div class="about-flex-layout">
-        </section>
-    <aside class="about-image-column">
-      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
-    </aside>
     <section class="about-text-column">
+      <p>
+        Most people who know me wouldn't quite know where to start. That's fine. 
+        I don't have a YouTube channel, nor any real claim to digital fame—which, 
+        ironically, is exactly where my story begins.
+      </p>
       <p>
         I'm Armando, born in the year 2000 in Italy. I grew up in a house where I never 
         really called the shots, and to be honest, I still survive there today—between 
@@ -130,39 +131,33 @@ permalink: /about/
         years when my mood and my days were dictated by other people's lives—filtered, 
         curated, accelerated. I watched myself get dragged along by social media not 
         because I wanted to, but because I had no distance left. That was the turning 
-        point.
+        point. I started looking into <u>digital minimalism<u>, not as an aesthetic, 
+      but as survival.
       </p>
+    </section>
+    <aside class="about-image-column">
+      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    </aside>
   </div>
   <div class="full-width-text">
-    <p>
-      I started looking into <strong>digital minimalism</strong>, not as an aesthetic, 
-      but as survival.
-    </p>
-    <p>
-      Here's what matters now: I'm done being emotionally attached to habits, ideas, 
-      or dispositions that cause me harm. I don't have a grand philosophy yet. 
-      I have a terminal, a pair of binoculars, and a quiet conviction that the most 
-      important thing is to learn how to correct errors—especially your own.
-    </p>
     <p>
       So if you ever hear me say something that rubs you the wrong way, don't worry. 
       I'm probably just arguing with my past self. And I intend to win.
     </p>
   </div>
-
   <h2>Interests & work experience</h2>     
   <ul class="interests-list">
     <li>
-      <strong>STEM</strong> : focus on electronics, software development, and building functional systems. 
+      <strong>STEM</strong>: focus on electronics, software development, and building functional systems. 
     </li>
     <li>
       <strong>Chess</strong>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
     </li>
     <li>
-      <strong>Birding</strong>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">birding List</a>.
+      <strong>Birding</strong>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
     </li>
     <li>
-      <strong>work experience</strong>View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
+      <strong>Work experience</strong>: biew my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
     </li>
   </ul>
 </div>
