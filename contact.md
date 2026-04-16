@@ -4,7 +4,7 @@ title: Contacts
 permalink: /contact/
 ---
 <p>
-  I'm <b>not<b> on Facebook, Instagram, Reddit, X (ex Twitter).
+  I'm <b>not</b> on Facebook, Instagram, Reddit, X (ex Twitter).
   I do have <a href="https://github.com/armandoahir"> Github</a>.
   Any others profile not linked to this blog it's not mine.
 </p>
