@@ -71,14 +71,13 @@ In simple terms:
 ### Practical sleep hygiene (what actually works)
 
 **Eliminate or minimize caffeine**: caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
-
 Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake especially in the afternoon is one of the highest impact changes.
 
 **Prepare the next day in advance**: clothes, breakfast, meals, work essentials. This reduces cognitive load before sleep.
-**Keep your environment clean and in order**: a chaotic environment creates low-level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
+**Keep your environment clean and in order**: a chaotic environment creates low level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
 
 **Go to Bed Clean**
-	- Shower and change clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
+	- Shower and change clothes: your bed shouldn’t accumulate everything you encountered during the day public transport, surfaces, interactions.
 	- Oral hygiene. 
 
 **Relax your mind (for real)**: the advice to “avoid screens completely” is often impractical. If you’ve accumulated stress during the day, you need a way to release it. Watching a series or film, reading (digital or physical books) should be fine with a proper light dim. (Of course set a clear time where stimulation ends).
