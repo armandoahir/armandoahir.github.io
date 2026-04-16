@@ -108,16 +108,16 @@ h2 {
   <h2>Interests & work experience</h2>     
   <ul class="interests-list">
     <li>
-      <strong>STEM</strong>: focus on electronics, software development, and building functional systems. 
+      <b>STEM</b>: focus on electronics, software development, and building functional systems. 
     </li>
     <li>
-      <strong>Chess</strong>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+      <b>Chess</b>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
     </li>
     <li>
-      <strong>Birding</strong>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
+      <b>Birding</b>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
     </li>
     <li>
-      <strong>Work experience</strong>: view my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>.
+      <b>Work experience</b>: view my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>.
     </li>
   </ul>
 </div>
