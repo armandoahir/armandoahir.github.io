@@ -25,7 +25,7 @@ plugins:
 - jekyll-feed
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 50 # jekyll-paginate > items per page
 paginate_path: page:num # jekyll-paginate > blog page
 
 # 4. Jekyll settings
