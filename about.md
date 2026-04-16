@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: About
 permalink: /about/
 ---
 
@@ -25,14 +25,15 @@ permalink: /about/
   color: #1a1a1a;
 }
 
-/* Layout a due colonne */
+/* Layout a due colonne SOLO per la parte affiancata all'immagine */
 .about-flex-layout {
   display: flex;
   gap: 40px;
   align-items: flex-start;
+  margin-bottom: 2rem;
 }
 
-/* Colonna Testo */
+/* Colonna Testo (sinistra) */
 .about-text-column {
   flex: 1.5; 
   color: #333;
@@ -44,7 +45,7 @@ permalink: /about/
   margin-bottom: 1.5rem;
 }
 
-/* Colonna Immagine - Rettangolare come in foto */
+/* Colonna Immagine (destra) */
 .about-image-column {
   flex: 1; 
   max-width: 350px;
@@ -54,16 +55,28 @@ permalink: /about/
   width: 100%;
   height: auto;
   display: block;
-  /* Rimosso padding, background e border-radius per renderla rettangolare pura */
   border-radius: 0; 
   border: none;
   object-fit: cover;
+}
+
+/* Testo a larghezza piena (dopo l'immagine) */
+.full-width-text {
+  color: #333;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-top: 1rem;
+}
+
+.full-width-text p {
+  margin-bottom: 1.5rem;
 }
 
 /* Liste di interessi */
 .interests-list {
   list-style: none;
   padding: 0;
+  margin-top: 2rem;
 }
 
 .interests-list li {
@@ -97,13 +110,9 @@ permalink: /about/
     <h1>About Me</h1>
   </header>
 
+  <!-- PRIMA PARTE: TESTO AFFIANCATO ALL'IMMAGINE (due colonne) -->
   <div class="about-flex-layout">
     <section class="about-text-column">
-      <p>
-        Most people who know me wouldn't quite know where to start. That's fine. 
-        I don't have a YouTube channel, nor any real claim to digital fame—which, 
-        ironically, is exactly where my story begins.
-      </p>
       <p>
         I'm Armando, born in the year 2000 in Italy. I grew up in a house where I never 
         really called the shots, and to be honest, I still survive there today—between 
@@ -117,41 +126,44 @@ permalink: /about/
         years when my mood and my days were dictated by other people's lives—filtered, 
         curated, accelerated. I watched myself get dragged along by social media not 
         because I wanted to, but because I had no distance left. That was the turning 
-        point. I started looking into <strong>digital minimalism</strong>, not as an 
-        aesthetic, but as survival.
+        point.
       </p>
-      <p>
-        Here's what matters now: I'm done being emotionally attached to habits, ideas, 
-        or dispositions that cause me harm. I don't have a grand philosophy yet. 
-        I have a terminal, a pair of binoculars, and a quiet conviction that the most 
-        important thing is to learn how to correct errors—especially your own.
-      </p>
-      <p>
-        So if you ever hear me say something that rubs you the wrong way, don't worry. 
-        I'm probably just arguing with my past self. And I intend to win.
-      </p>
-      <h2>Interests & work experience</h2>     
-      <ul class="interests-list">
-        <li>
-          <strong>STEM</strong>
-          I focus on electronics, software development, and building functional systems. 
-        </li>
-        <li>
-          <strong>Chess</strong>
-          A retired chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
-        </li>
-        <li>
-          <strong>Birding</strong>
-          Since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
-        </li>
-        <li>
-          <strong>Work experience</strong>
-          View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
-        </li>
-      </ul>
     </section>
     <aside class="about-image-column">
       <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
     </aside>
   </div>
+
+  <div class="full-width-text">
+    <p>
+      I started looking into <strong>digital minimalism</strong>, not as an aesthetic, 
+      but as survival.
+    </p>
+    <p>
+      Here's what matters now: I'm done being emotionally attached to habits, ideas, 
+      or dispositions that cause me harm. I don't have a grand philosophy yet. 
+      I have a terminal, a pair of binoculars, and a quiet conviction that the most 
+      important thing is to learn how to correct errors—especially your own.
+    </p>
+    <p>
+      So if you ever hear me say something that rubs you the wrong way, don't worry. 
+      I'm probably just arguing with my past self. And I intend to win.
+    </p>
+  </div>
+
+  <h2>Interests & work experience</h2>     
+  <ul class="interests-list">
+    <li>
+      <strong>STEM</strong> : focus on electronics, software development, and building functional systems. 
+    </li>
+    <li>
+      <strong>Chess</strong>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+    </li>
+    <li>
+      <strong>Birding</strong>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">birding List</a>.
+    </li>
+    <li>
+      <strong>work experience</strong>View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
+    </li>
+  </ul>
 </div>
