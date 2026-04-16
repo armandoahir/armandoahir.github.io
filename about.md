@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: About Me
 permalink: /about/
 ---
 
@@ -24,7 +24,6 @@ permalink: /about/
   color: #1a1a1a;
 }
 
-/* --- IL TRUCCO "TERRA TERRA" --- */
 .profile-pic {
   float: right;          
   width: 35%;            
@@ -35,7 +34,6 @@ permalink: /about/
   display: block;
 }
 
-/* Pulizia dei float per gli elementi successivi (come il titolo degli interessi) */
 .clearfix::after {
   content: "";
   clear: both;
@@ -46,7 +44,7 @@ permalink: /about/
   line-height: 1.7;
   font-size: 1.05rem;
   margin-bottom: 1.5rem;
-  text-align: justify; /* Opzionale: per renderlo ancora più simile alla foto */
+  text-align: justify; /* Opzionale */
 }
 
 h2 {
@@ -84,7 +82,6 @@ h2 {
 
 <div class="about-container clearfix">
   <header class="about-header">
-    <h1>About Me</h1>
   </header>
 
   <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
