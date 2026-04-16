@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title:
 permalink: /about/
 ---
 
@@ -112,6 +112,10 @@ permalink: /about/
 
   <!-- PRIMA PARTE: TESTO AFFIANCATO ALL'IMMAGINE (due colonne) -->
   <div class="about-flex-layout">
+        </section>
+    <aside class="about-image-column">
+      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    </aside>
     <section class="about-text-column">
       <p>
         I'm Armando, born in the year 2000 in Italy. I grew up in a house where I never 
@@ -128,12 +132,7 @@ permalink: /about/
         because I wanted to, but because I had no distance left. That was the turning 
         point.
       </p>
-    </section>
-    <aside class="about-image-column">
-      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
-    </aside>
   </div>
-
   <div class="full-width-text">
     <p>
       I started looking into <strong>digital minimalism</strong>, not as an aesthetic, 
