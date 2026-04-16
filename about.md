@@ -5,60 +5,62 @@ permalink: /about/
 ---
 
 <style>
-/* Allineamento al tema del blog */
+/* Container principale */
 .about-container {
-  max-width: 720px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 2.5rem auto;
   padding: 0 20px;
   font-family: inherit;
 }
 
-/* Sezione profilo */
-.profile-section {
+/* Titolo centrato */
+.about-header {
   text-align: center;
-  margin: 2.5rem 0;
+  margin-bottom: 3rem;
 }
 
-.profile-pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 20%;
-  object-fit: cover;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 1.5rem;
-  padding: 4px;
-  background: #fff;
-}
-
-.about-name {
-  font-size: 1.8rem;
-  font-weight: 600;
+.about-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
   color: #1a1a1a;
-  margin-bottom: 0.5rem;
 }
 
-.about-subtitle {
-  color: #666;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
-  margin-bottom: 2rem;
+/* Layout a due colonne */
+.about-flex-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 
-/* Contenuto testuale */
-.about-content {
+/* Colonna Testo */
+.about-text-column {
+  flex: 1.5; 
   color: #333;
   line-height: 1.7;
   font-size: 1.05rem;
 }
 
-.about-content h2 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  color: #1a1a1a;
+.about-text-column p {
+  margin-bottom: 1.5rem;
 }
 
+/* Colonna Immagine - Rettangolare come in foto */
+.about-image-column {
+  flex: 1; 
+  max-width: 350px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Rimosso padding, background e border-radius per renderla rettangolare pura */
+  border-radius: 0; 
+  border: none;
+  object-fit: cover;
+}
+
+/* Liste di interessi */
 .interests-list {
   list-style: none;
   padding: 0;
@@ -76,65 +78,52 @@ permalink: /about/
   margin-bottom: 0.2rem;
 }
 
-/* Bottone CV (stile identico al Submit del form) */
-.cv-container {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.cv-button {
-  display: inline-block;
-  padding: 12px 40px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  background: #1a1a1a;
-  color: white !important;
-  text-decoration: none;
-  border-radius: 40px;
-  transition: opacity 0.2s;
-  letter-spacing: 0.5px;
-}
-
-.cv-button:hover {
-  opacity: 0.85;
-}
-
-@media (max-width: 600px) {
-  .about-name { font-size: 1.5rem; }
-  .profile-pic { width: 140px; height: 140px; }
+/* Responsività */
+@media (max-width: 800px) {
+  .about-flex-layout {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about-image-column {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 2rem;
+  }
 }
 </style>
 
 <div class="about-container">
-  
-  <header class="profile-section">
-    <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
-    <h1 class="about-name">mini arma</h1>
+  <header class="about-header">
+    <h1>About Me</h1>
   </header>
 
-  <section class="about-content">
-    <p>
-      Welcome to my personal corner of the internet. I'm a junior IT engineer, passionate about how things work from complex software to embedded circuits. I use this space as my digital notebook for projects, technical reflections, and observations.
-    </p>
-    <h2>Interests & work experience</h2>
-    <ul class="interests-list">
-      <li>
-        <strong>STEM</strong>
-        I focus on electronics, software development, and building functional systems. 
-      </li>
-      <li>
-        <strong>Chess</strong>
-        A retired chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
-      </li>
-      <li>
-        <strong>Birding</strong>
-        Since 2026 i've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
-      </li>
-      <li>
-        <strong>Work experience</strong>
-        View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
+  <div class="about-flex-layout">
+    <section class="about-text-column">
+      <p>
+        Welcome to my personal corner of the internet. I'm a junior IT engineer, passionate about how things work—from complex software to embedded circuits. I use this space as my digital notebook for projects, technical reflections, and observations.
+      </p>
+      <h2>Interests & work experience</h2>     
+      <ul class="interests-list">
+        <li>
+          <strong>STEM</strong>
+          I focus on electronics, software development, and building functional systems. 
         </li>
-    </ul>
-  </section>
+        <li>
+          <strong>Chess</strong>
+          A retired chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+        </li>
+        <li>
+          <strong>Birding</strong>
+          Since 2026 i've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
+        </li>
+        <li>
+          <strong>Work experience</strong>
+          View my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
+        </li>
+      </ul>
+    </section>
+    <aside class="about-image-column">
+      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+    </aside>
+  </div>
 </div>
