@@ -12,7 +12,7 @@ During that time, I came across the usual productivity routines. In theory, they
 What often happens is that we end up spending more energy structuring our day than actually moving forward with our goals.
 Out of everything I explored back then, only a few ideas stuck with me. One of them is the importance of high-quality sleep.
 
-### Why Sleep Became Non-Negotiable for Me
+### Why sleep became non-negotiable for me
 I’ve noticed a consistent pattern:
 
 - If I sleep less than ~6.5 hours, I wake up with headaches and irritability.
@@ -25,37 +25,28 @@ This led me to a simple but important question:
 
 To answer that, we need to understand what the body does while we sleep.
 
-### What Happens in Your Body During Sleep
+### What happens in your body during sleep
 Sleep is not passive. It is an active, highly regulated biological process essential for survival.
 During sleep, your body performs several critical functions:
 
-- Memory Consolidation and Brain Processing
-The brain reorganizes and stabilizes information acquired during the day. This process—known as **memory consolidation** primarily occurs during deeper stages of sleep and REM (Rapid Eye Movement) sleep.
+**Memory Consolidation and brain processing**: the brain reorganizes and stabilizes information acquired during the day. This process—known as **memory consolidation** primarily occurs during deeper stages of sleep and REM (Rapid Eye Movement) sleep.
 
-- Cardiovascular Recovery: heart rate and blood pressure decrease, reducing strain on the cardiovascular system. This “downtime” is essential for long-term heart health.
+**Cardiovascular recovery**: heart rate and blood pressure decrease, reducing strain on the cardiovascular system. This “downtime” is essential for long-term heart health.
 
-- Thermoregulation: core body temperature drops, which helps initiate and maintain sleep. This is why cooler environments tend to improve sleep quality.
+**Thermoregulation**: core body temperature drops, which helps initiate and maintain sleep. This is why cooler environments tend to improve sleep quality.
 
-- Muscle Relaxation and Repair
-Muscles relax, and tissue repair processes accelerate. Growth hormone is released, supporting recovery and regeneration.
+**Muscle relaxation and repair**: muscles relax, and tissue repair processes accelerate. Growth hormone is released, supporting recovery and regeneration.
 
-- Hormonal Regulation: sleep plays a key role in balancing hormones, including: leptin(satiety hormone), ghrelin(hunger hormone).
+**Hormonal Regulation**: sleep plays a key role in balancing hormones, including: leptin(satiety hormone), ghrelin(hunger hormone). Sleep deprivation disrupts this balance, often increasing appetite and cravings.
 
-Sleep deprivation disrupts this balance, often increasing appetite and cravings.
+**Immune System Maintenance**: the immune system strengthens during sleep. Chronic sleep deprivation is associated with increased susceptibility to infections and inflammation.
 
-- Immune System Maintenance: the immune system strengthens during sleep. Chronic sleep deprivation is associated with increased susceptibility to infections and inflammation.
+**REM sleep and dreaming**: during REM sleep, brain activity resembles wakefulness. This phase is linked to emotional regulation, creativity, and problem-solving.
 
-- REM Sleep and Dreaming: during REM sleep, brain activity resembles wakefulness. This phase is linked to emotional regulation, creativity, and problem-solving.
-
-### The Role of the Circadian Rhythm
+### The role of the circadian rhythm
 
 To understand sleep quality, you also need to understand the **circadian rhythm**.
-The circadian rhythm is your body’s internal biological clock, operating on roughly a 24-hour cycle. It regulates:
-
-- Sleep–wake timing;  
-- Hormone release (e.g., melatonin, cortisol);
-- Body temperature:
-- Metabolism.  
+The circadian rhythm is your body’s internal biological clock, operating on roughly a 24-hour cycle. It regulates **sleep–wake timing, hormone release (e.g., melatonin, cortisol), body temperature, metabolism**.  
 
 The circadian rhythm is heavily influenced by light exposure:
 
@@ -70,9 +61,7 @@ When you consistently sleep at irregular times or too little, you create:
 
 This explains why you might feel wired after little sleep but crash later: your stress systems (like cortisol) temporarily compensate, but cannot sustain performance.
 
-### What Happens When You Don’t Sleep Enough
-Sleep deprivation isn’t just about feeling tired.
-It impairs:
+### What happens when you don’t sleep enough
 - Cognitive performance (attention, decision-making)
 - Emotional stability (increased irritability and stress reactivity)
 - Physical health (immune suppression, metabolic dysregulation)
@@ -81,20 +70,18 @@ In simple terms:
 > Without sleep, your body cannot properly maintain, clean, and repair itself.
 ### Practical Sleep Hygiene (What Actually Works)
 
-Here’s what I’ve found to be realistically effective—not idealized, but applicable.
-
-- Eliminate or minimize caffeine: caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
+- **Eliminate or minimize caffeine**: caffeine (coffee, tea, matcha, yerba mate, cola) blocks **adenosine**, a molecule that builds sleep pressure.
 
 Even if you “feel fine,” caffeine can degrade sleep quality hours later. Sensitivity varies, but reducing intake especially in the afternoon is one of the highest impact changes.
 
-- Prepare the next day in advance: clothes, breakfast, meals, work essentials. This reduces cognitive load before sleep.
-- Keep your environment clean and in order: a chaotic environment creates low-level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
+- **Prepare the next day in advance**: clothes, breakfast, meals, work essentials. This reduces cognitive load before sleep.
+- **Keep your environment clean and in order**: a chaotic environment creates low-level stress. Personally, trying to sleep in a messy room adds unnecessary mental noise. Clean space → lower cognitive load → better sleep onset.
 
-- Go to Bed Clean
-	- Shower and Change Clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
-	- Oral hygiene.
+- **Go to Bed Clean**
+	- Shower and change clothes: your bed shouldn’t accumulate everything you encountered during the day—public transport, surfaces, interactions.
+	- Oral hygiene. 
 
-- Relax Your Mind (Realistically): the advice to “avoid screens completely” is often impractical. If you’ve accumulated stress during the day, you need a way to release it. Watching a series or film, reading (digital or physical books) should be fine with a proper light dim. (Of course set a clear time where stimulation ends).
+- **Relax your mind (for real)**: the advice to “avoid screens completely” is often impractical. If you’ve accumulated stress during the day, you need a way to release it. Watching a series or film, reading (digital or physical books) should be fine with a proper light dim. (Of course set a clear time where stimulation ends).
 
 ### Sources
 
