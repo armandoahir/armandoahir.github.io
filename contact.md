@@ -6,26 +6,25 @@ permalink: /contact/
 <p>
   I'm <b>not</b> on Facebook, Instagram, Reddit, X (ex Twitter).
   I do have <a href="https://github.com/armandoahir"> Github</a>.
-  Any others profile not linked to this blog it's not mine.
+  <br>Any other profile not linked to this blog it's not mine.
 </p>
+
 <style>
-/* Reset e allineamento al tema del blog */
+/* Mailbox */
 * { box-sizing: border-box; }
 
-/* Contenitore principale centrato come il resto del blog */
 .page-content, .wrapper {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Stile del form */
 .contact-form {
   max-width: 620px;
   margin: 2rem auto;
 }
 
-/* Testo della descrizione - uniformato al blog */
+
 .contact-description {
   color: #555;
   font-size: 1rem;
@@ -34,7 +33,7 @@ permalink: /contact/
   text-align: center;
 }
 
-/* Griglia per nome ed email */
+
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
