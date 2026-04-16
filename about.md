@@ -1,19 +1,18 @@
 ---
 layout: page
-title:
+title: About
 permalink: /about/
 ---
 
 <style>
-/* Container principale */
 .about-container {
   max-width: 900px;
   margin: 2.5rem auto;
   padding: 0 20px;
   font-family: inherit;
+  color: #333;
 }
 
-/* Titolo centrato */
 .about-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -25,58 +24,41 @@ permalink: /about/
   color: #1a1a1a;
 }
 
-/* Layout a due colonne SOLO per la parte affiancata all'immagine */
-.about-flex-layout {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-/* Colonna Testo (sinistra) */
-.about-text-column {
-  flex: 1.5; 
-  color: #333;
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
-
-.about-text-column p {
-  margin-bottom: 1.5rem;
-}
-
-/* Colonna Immagine (destra) */
-.about-image-column {
-  flex: 1; 
-  max-width: 350px;
-}
-
+/* --- IL TRUCCO "TERRA TERRA" --- */
 .profile-pic {
-  width: 100%;
+  float: right;          
+  width: 35%;            
+  max-width: 350px;
   height: auto;
+  margin-left: 30px;     
+  margin-bottom: 15px;   
   display: block;
-  border-radius: 0; 
-  border: none;
-  object-fit: cover;
 }
 
-/* Testo a larghezza piena (dopo l'immagine) */
-.full-width-text {
-  color: #333;
+/* Pulizia dei float per gli elementi successivi (come il titolo degli interessi) */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-content p {
   line-height: 1.7;
   font-size: 1.05rem;
-  margin-top: 1rem;
-}
-
-.full-width-text p {
   margin-bottom: 1.5rem;
+  text-align: justify; /* Opzionale: per renderlo ancora più simile alla foto */
 }
 
-/* Liste di interessi */
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: #1a1a1a;
+}
+
 .interests-list {
   list-style: none;
   padding: 0;
-  margin-top: 2rem;
 }
 
 .interests-list li {
@@ -88,63 +70,54 @@ permalink: /about/
 .interests-list strong {
   display: block;
   color: #1a1a1a;
-  margin-bottom: 0.2rem;
 }
 
-/* Responsività */
-@media (max-width: 800px) {
-  .about-flex-layout {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .about-image-column {
+/* Responsività per cellulari */
+@media (max-width: 600px) {
+  .profile-pic {
+    float: none;
     width: 100%;
-    max-width: 300px;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
   }
 }
 </style>
 
-<div class="about-container">
+<div class="about-container clearfix">
   <header class="about-header">
     <h1>About Me</h1>
   </header>
 
-  <!-- PRIMA PARTE: TESTO AFFIANCATO ALL'IMMAGINE (due colonne) -->
-  <div class="about-flex-layout">
-    <section class="about-text-column">
-      <p>
-        Most people who know me wouldn't quite know where to start. That's fine. 
-        I don't have a YouTube channel, nor any real claim to digital fame—which, 
-        ironically, is exactly where my story begins.
-      </p>
-      <p>
-        I'm Armando, born in the year 2000 in Italy. I grew up in a house where I never 
-        really called the shots, and to be honest, I still survive there today—between 
-        studying, books, films, and a fair amount of generational compromise. 
-        I trained to become a software engineer, and that's what I am. I live by code, 
-        but not <em>for</em> code. That tension—being inside the machine while 
-        distrusting it—is the first real crack in my relationship with technology.
-      </p>
-      <p>
-        For years, I didn't ask questions. Then came Covid. And after Covid came the 
-        years when my mood and my days were dictated by other people's lives—filtered, 
-        curated, accelerated. I watched myself get dragged along by social media not 
-        because I wanted to, but because I had no distance left. That was the turning 
-        point. I started looking into <u>digital minimalism<u>, not as an aesthetic, 
+  <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
+
+  <div class="about-content">
+    <p>
+      Most people who know me wouldn't quite know where to start. That's fine. 
+      I don't have a YouTube channel, nor any real claim to digital fame—which, 
+      ironically, is exactly where my story begins.
+    </p>
+    
+    <p>
+      I'm Armando, born in the year 2000 in Italy. I grew up in a house where I never 
+      really called the shots, and to be honest, I still survive there today—between 
+      studying, books, films, and a fair amount of generational compromise. 
+      I trained to become a software engineer, and that's what I am. I live by code, 
+      but not <em>for</em> code. That tension—being inside the machine while 
+      distrusting it—is the first real crack in my relationship with technology.
+    </p>
+    <p>
+      For years, I didn't ask questions. Then came Covid. And after Covid came the 
+      years when my mood and my days were dictated by other people's lives—filtered, 
+      curated, accelerated. I watched myself get dragged along by social media not 
+      because I wanted to, but because I had no distance left. That was the turning 
+      point. I started looking into <strong>digital minimalism</strong>, not as an aesthetic, 
       but as survival.
-      </p>
-    </section>
-    <aside class="about-image-column">
-      <img src="{{ '/assets/arma.png' | relative_url }}" alt="Armando Ahir" class="profile-pic">
-    </aside>
-  </div>
-  <div class="full-width-text">
+    </p>
     <p>
       So if you ever hear me say something that rubs you the wrong way, don't worry. 
       I'm probably just arguing with my past self. And I intend to win.
     </p>
   </div>
+
   <h2>Interests & work experience</h2>     
   <ul class="interests-list">
     <li>
@@ -157,7 +130,7 @@ permalink: /about/
       <strong>Birding</strong>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
     </li>
     <li>
-      <strong>Work experience</strong>: biew my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>
+      <strong>Work experience</strong>: view my <a href="{{ '/assets/files/cv.pdf' | relative_url }}">CV here</a>.
     </li>
   </ul>
 </div>
