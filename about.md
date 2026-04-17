@@ -94,7 +94,7 @@ h2 {
       For years, I didn't ask questions. Then came Covid. During covid i watched myself get dragged along by social media not
       because i wanted to, but because i had no distance left. That was the turning point. I started looking into <u>digital minimalism</u>, not as an aesthetic, but as survival.
       So if you ever hear me say something that rubs you the wrong way, don't worry.
-      I'm probably just arguing with my past self. And I intend to win.
+      I'm probably just arguing with my past self.
     </p>
   </div>
 
