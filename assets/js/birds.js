@@ -34,6 +34,12 @@ const birdEntries = [
   { common: "Great spotted woodpecker", latin: "Dendrocopos major", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256154511/1200" },
   { common: "European goldfinch", latin: "Carduelis carduelis", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256706831/320" },
   { common: "Eurasian blue tit", latin: "Cyanistes caeruleus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/46409481/1200" },
-  { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/320" }
+  { common: "Common swift", latin: "Apus apus", date: "11.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/320" },
+  { common: "Red crested grebe", latin: "Podiceps cristatus", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/242170941/1800" },
+  { common: "Red crested pochard", latin: "Netta rufina", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44942321/1800" },
+  { common: "Yellow-legged Gull", latin: "Larus michahellis", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44945251/1800" },
+  { common: "Great Reed Warbler", latin: "Acrocephalus arundinaceus", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/45042681/480" },
+  { common: "Western jackdown", latin: "Coloeus monedula", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/611135886/480" },
+  { common: "Great cormorant", latin: "Phalacrocorax carbo", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/320" }
 ];
 export { birdEntries };
