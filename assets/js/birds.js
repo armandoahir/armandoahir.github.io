@@ -40,6 +40,6 @@ const birdEntries = [
   { common: "Yellow-legged Gull", latin: "Larus michahellis", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44945251/1800" },
   { common: "Great Reed Warbler", latin: "Acrocephalus arundinaceus", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/45042681/480" },
   { common: "Western jackdown", latin: "Coloeus monedula", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/611135886/480" },
-  { common: "Great cormorant", latin: "Phalacrocorax carbo", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/320" }
+  { common: "Great cormorant", latin: "Phalacrocorax carbo", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66026521/1800" }
 ];
 export { birdEntries };
