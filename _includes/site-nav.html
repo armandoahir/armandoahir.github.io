@@ -1,11 +1,16 @@
 <nav class="nav">
   <ul class="list list--nav">
-    
+
     <li class="item item--nav{% if page.url == '/' %} item--current{% endif %}">
       <a href="{{ site.baseurl }}/">Blog</a>
     </li>
 
-    {%- assign static_pages = "About,Contacts" | split: "," -%}
+    {%- comment -%}
+      Aggiungiamo 'Showcase' e 'Birding List' alla variabile static_pages.
+      I nomi devono corrispondere esattamente al 'title' definito nel front-matter dei file .md
+    {%- endcomment -%}
+    {%- assign static_pages = "About,Contacts,Showcase" | split: "," -%}
+
     {%- for item in site.pages -%}
       {%- if static_pages contains item.title -%}
         <li class="item item--nav{% if item.url == page.url %} item--current{% endif %}">
