@@ -23,9 +23,9 @@ permalink: /showcase/
   }
   .media-item img {
     width: 100%;
-    border-radius: 4px; /* Per richiamare lo stile squadrato di Garth */
+    border-radius: 4px; 
     display: block;
-    filter: grayscale(20%); /* Opzionale: per un look più "moody" coerente con Garth */
+    filter: grayscale(20%); 
     transition: filter 0.3s ease;
   }
   .media-item img:hover {
