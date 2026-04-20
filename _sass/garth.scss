@@ -2,10 +2,43 @@
 
 // Import frameworks & theme styles
 @import
-  "normalize",
-  "colors",
-  "sassline-base",
-  "syntax",
-  "flex",
-  "theme"
+"normalize",
+"colors",
+"sassline-base",
+"syntax",
+"flex",
+"theme"
 ;
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+  margin: 2rem 0;
+
+  .gallery-item {
+    background: #f9f9f9;
+    line-height: 0;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 4px;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
