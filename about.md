@@ -89,19 +89,16 @@ h2 {
   <div class="about-content">
     <p>
       I'm Armando, born in the year 2000 in Italy. I grew up in a house where i never
-      really called the shots, and to be honest; i still survive there today between
-      studying, books, films, and a fair amount of generational compromise. Studying software engineering, soon i will get into cybersecurity.
-      For years, I didn't ask questions. Then came Covid. During covid i watched myself get dragged along by social media not
-      because i wanted to, but because i had no distance left. That was the turning point. I started looking into <u>digital minimalism</u>, not as an aesthetic, but as survival.
-      So if you ever hear me say something that rubs you the wrong way, don't worry.
-      I'm probably just arguing with my past self.
+      really called the shots, and to be honest, i still survive there today between studying, books, films, and a fair amount of generational compromise. Studying software engineering, soon i will get into cybersecurity.
+      During covid i watched myself get dragged along by social media not because i wanted to, but because i had no distance left. That was the turning point. I started looking into <u>digital minimalism</u>, not as an aesthetic, but as survival.
+      So if you ever hear me say something that rubs you the wrong way, don't worry. I'm probably just arguing with my past self.
     </p>
   </div>
 
   <h2>Interests & work experience</h2>
   <ul class="interests-list">
     <li>
-      <b>STEM</b>: focus on electronics, software development, and building functional systems. 
+      <b>STEM</b>: focus on Software engineering, Networking, prototyping. 
     </li>
     <li>
       <b>Chess</b>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
