@@ -98,10 +98,10 @@ h2 {
   <h2>Interests & work experience</h2>
   <ul class="interests-list">
     <li>
-      <b>STEM</b>: focus on Software engineering, Networking, prototyping. 
+      <b>STEM</b>: focus on software engineering, networking, prototyping. 
     </li>
     <li>
-      <b>Chess</b>: ex chess player. Catch me for a blitz match on <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
+      <b>Chess</b>: ex chess player. <a href="https://www.chess.com/member/itsarma" target="_blank">Chess.com</a>.
     </li>
     <li>
       <b>Birding</b>: since 2026 I've been documenting avifauna. You can follow my sightings in my <a href="{{ '/birding-list' | relative_url }}">Birding List</a>.
