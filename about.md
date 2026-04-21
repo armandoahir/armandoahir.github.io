@@ -111,26 +111,25 @@ h2 {
     </li>
   </ul>
 </div>
-<h2>Habit Tracking</h2>
-  <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">
-    Tracking my habits to stay consistent.
-  </p>
-  
-  <div style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #e0e0e0;">
-    <iframe 
-      src="https://lifeofdiscipline.com/notion/habit/cmguv2yvs0001l7067klwvkqk?darkTheme=0" 
-      width="100%" 
-      height="380" 
-      frameborder="0" 
-      style="display: block;">
-    </iframe>
-</div>
-  <div style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #e0e0e0;">
-    <iframe 
-      src="https://lifeofdiscipline.com/notion/habit/cmo8jqa9d0001if068h0ri5tn?darkTheme=0" 
-      width="100%" 
-      height="380" 
-      frameborder="0" 
-      style="display: block;">
-    </iframe>
-</div>
+<h2>General stats</h2>
+<p>
+  <strong>Days disconnected from social media:</strong> 
+  <span id="discipline-counter" style="font-weight: bold; color: #1a1a1a;">0</span>
+</p>
+
+<script>
+  function updateCounter() {
+    const startDate = new Date("2025-09-23");
+    const today = new Date();
+
+    const diffInMs = today - startDate;
+    
+    // (1 giorno = 24h * 60m * 60s * 1000ms)
+    const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+    
+    document.getElementById("discipline-counter").innerText = diffInDays > 0 ? diffInDays : 0;
+  }
+
+  updateCounter();
+</script>
+
