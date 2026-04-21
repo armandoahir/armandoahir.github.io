@@ -127,5 +127,13 @@ h2 {
       frameborder="0" 
       style="display: block;">
     </iframe>
-  </div>
+</div>
+  <div style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #e0e0e0;">
+    <iframe 
+      src="https://lifeofdiscipline.com/notion/habit/cmo8jqa9d0001if068h0ri5tn?darkTheme=0" 
+      width="100%" 
+      height="380" 
+      frameborder="0" 
+      style="display: block;">
+    </iframe>
 </div>
