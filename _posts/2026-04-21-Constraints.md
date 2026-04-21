@@ -14,7 +14,7 @@ I avoid habits that negatively affect my physical or mental well-being. I try to
 - I don't use mobile phone for stuff besides phone calls and messages.
 - I don’t watch TV.
 - Series > movies > cinema > theatre.
-- i rarely watch anime. I don't read manga.
+- I rarely watch anime. I don't read manga.
 
 ### Diet
 - I don’t consume caffeine after 1 p.m.
