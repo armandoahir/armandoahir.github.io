@@ -114,3 +114,18 @@ h2 {
     </li>
   </ul>
 </div>
+<h2>Habit Tracking</h2>
+  <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">
+    Tracking my habits to stay consistent.
+  </p>
+  
+  <div style="width: 100%; overflow: hidden; border-radius: 8px; border: 1px solid #e0e0e0;">
+    <iframe 
+      src="https://lifeofdiscipline.com/notion/habit/cmguv2yvs0001l7067klwvkqk?darkTheme=0" 
+      width="100%" 
+      height="380" 
+      frameborder="0" 
+      style="display: block;">
+    </iframe>
+  </div>
+</div>
