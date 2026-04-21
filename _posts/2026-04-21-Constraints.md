@@ -11,9 +11,9 @@ I avoid habits that negatively affect my physical or mental well-being. I try to
 
 ### Media and entertainment
 - I don’t use social media except Youtube and Whatsapp.
-- I don't use mobile phone for stuff besides phone calls and messages.
+- I don't use mobile phone for stuff  phone calls and messages.
 - I don’t watch TV.
-- Series > movies > cinema > theatre.
+- Series < movies < cinema < theatre.
 - I rarely watch anime. I don't read manga.
 
 ### Diet
