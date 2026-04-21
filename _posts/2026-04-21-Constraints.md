@@ -10,7 +10,7 @@ Some of the items on this list are habits I’ve left behind over time. <br>
 I avoid habits that negatively affect my physical or mental well-being. I try to prioritize consistency over intensity in my routines.
 
 ### Media and entertainment
-- I don’t use social media of any kind.
+- I don’t use social media except Youtube and Whatsapp.
 - I don't use mobile phone for stuff besides phone calls and messages.
 - I don’t watch TV.
 - Series > movies > cinema > theatre.
