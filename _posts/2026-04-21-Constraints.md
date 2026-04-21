@@ -13,7 +13,7 @@ I avoid habits that negatively affect my physical or mental well-being. I try to
 - I don’t use social media of any kind.
 - I don't use mobile phone for stuff besides phone calls and messages.
 - I don’t watch TV.
-- Series > movies > cinema > theatre
+- Series > movies > cinema > theatre.
 - i rarely watch anime. I don't read manga.
 
 ### Diet
@@ -23,7 +23,7 @@ I avoid habits that negatively affect my physical or mental well-being. I try to
 - I don’t drink alcohol.
 - I don’t drink soft drinks (except on occasional cheat days).
 - I don’t eat horse meat.
-- I don't eat shrimps, oysters and crab.
+- I don't eat shrimps, oysters and crabs.
 - I don’t use margarine.
 
 ### Social life
