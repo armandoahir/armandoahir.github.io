@@ -2,30 +2,32 @@
 layout: default
 ---
 {% include site-header.html %}
-<main class="main container">
-  <div class="home-grid">
+<main class="main">
+  <div class="container">
+    <div class="home-grid">
 
-    <div class="home-posts">
-      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-      <h1>{{ collectiondata.title }}</h1>
-      {{ collectiondata.description | markdownify }}
-      {% include post-list.html %}
+      <div class="home-posts">
+        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+        <h1>{{ collectiondata.title }}</h1>
+        {{ collectiondata.description | markdownify }}
+        {% include post-list.html %}
+      </div>
+
+      {% if page.links %}
+      <div class="home-links">
+        <h2>Links</h2>
+        <table class="links-table">
+          {% for link in page.links %}
+          <tr>
+            <td><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></td>
+            <td>{{ link.description }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+      {% endif %}
+
     </div>
-
-    {% if page.links %}
-    <div class="home-links">
-      <h2>Links</h2>
-      <table class="links-table">
-        {% for link in page.links %}
-        <tr>
-          <td><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></td>
-          <td>{{ link.description }}</td>
-        </tr>
-        {% endfor %}
-      </table>
-    </div>
-    {% endif %}
-
   </div>
 </main>
 {% include site-footer.html %}
