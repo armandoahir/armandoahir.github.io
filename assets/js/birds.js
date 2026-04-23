@@ -42,4 +42,12 @@ const birdEntries = [
   { common: "Western jackdown", latin: "Coloeus monedula", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/611135886/480" },
   { common: "Great cormorant", latin: "Phalacrocorax carbo", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66026521/1800" }
 ];
+
+export const lastUpdated = birdEntries
+.map(b => {
+  const [d, m, y] = b.date.split('.');
+  return new Date(y, m - 1, d);
+})
+.reduce((max, d) => d > max ? d : max, new Date(0));
+
 export { birdEntries };
