@@ -107,6 +107,9 @@ body {
     @include flex-direction(row);
   }
 }
+.main--home {
+  display: block !important;
+}
 
 
 // Lists
