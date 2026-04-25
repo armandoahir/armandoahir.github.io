@@ -2,6 +2,7 @@
 layout: page
 title: Birding list
 permalink: /birding-list/
+updated: 2025-04-23
 ---
 
 <style>
@@ -166,7 +167,7 @@ permalink: /birding-list/
 
 <script type="module">
   import { birdEntries } from '{{"/assets/js/birds.js" | relative_url}}';
-  
+
   function createBirdItem(bird) {
     const li = document.createElement('li');
     const link = document.createElement('a');
@@ -191,7 +192,7 @@ permalink: /birding-list/
     const latinSpan = document.createElement('span');
     latinSpan.className = "latin-name";
     latinSpan.textContent = bird.latin;
-    
+
     nameSpan.appendChild(commonSpan);
     nameSpan.appendChild(latinSpan);
     infoDiv.appendChild(nameSpan);
@@ -212,18 +213,14 @@ permalink: /birding-list/
     const rightCol = birdEntries.slice(mid);
     const leftContainer = document.getElementById('col-left');
     const rightContainer = document.getElementById('col-right');
-    
+
     leftCol.forEach(bird => leftContainer.appendChild(createBirdItem(bird)));
     rightCol.forEach(bird => rightContainer.appendChild(createBirdItem(bird)));
     document.getElementById('species-count').innerText = birdEntries.length;
   }
 
-  function setDynamicDate() {
-    const now = new Date();
-    const formatted = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-    document.getElementById('dynamic-date').innerHTML = `last updated: ${formatted}`;
-  }
+  document.getElementById('dynamic-date').innerHTML =
+    'last updated: {{ page.updated | date: "%B %-d, %Y" }}';
 
   renderTwoColumns();
-  setDynamicDate();
 </script>
