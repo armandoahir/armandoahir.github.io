@@ -5,7 +5,7 @@
       <a href="{{ site.baseurl }}/">Blog</a>
     </li>
 
-    {%- assign static_pages = "About,Contacts,Showcase" | split: "," -%}
+    {%- assign static_pages = "About,Contacts,Showcase, Books" | split: "," -%}
 
     {%- for item in site.pages -%}
       {%- if static_pages contains item.title -%}
