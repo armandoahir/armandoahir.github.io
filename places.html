@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arma. | places</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* ── Table layout (Luke Smith-style) ───────────────── */
+        #place-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        #place-table thead th {
+            text-align: left;
+            font-weight: 400;
+            font-size: 0.78rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #aaa;
+            padding: 0 0 0.5rem 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        #place-table thead th:nth-child(2) {
+            width: 5rem;
+        }
+
+        #place-table tbody tr {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        #place-table tbody td {
+            padding: 0.55rem 0;
+            vertical-align: top;
+        }
+
+        #place-table tbody td:nth-child(2) {
+            font-family: monospace;
+            font-size: 0.82rem;
+            color: #999;
+            padding-right: 1.2rem;
+            white-space: nowrap;
+        }
+
+        .place-name {
+            color: #111;
+            font-weight: 400;
+        }
+
+        .place-comment {
+            color: #777;
+            font-size: 0.88rem;
+            margin-top: 0.15rem;
+        }
+
+        .place-comment a {
+            font-family: monospace;
+            font-size: 0.78rem;
+            color: #bbb;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+            transition: color 0.15s;
+        }
+
+        .place-comment a:hover {
+            color: #555;
+        }
+
+        /* ── Detailed sections ── */
+        .country-section {
+            margin-top: 3.5rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #111;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .country-section h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0 0 0.3rem 0;
+            letter-spacing: 0.02em;
+        }
+
+        .country-section .meta {
+            font-family: monospace;
+            font-size: 0.78rem;
+            color: #999;
+            margin-bottom: 1rem;
+        }
+
+        .country-section p {
+            font-size: 0.93rem;
+            line-height: 1.65;
+            color: #333;
+            margin: 0.7rem 0;
+        }
+
+        .country-section .map-wrap {
+            margin: 1.2rem 0;
+        }
+
+        .country-section .map-wrap img {
+            max-width: 340px;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+	.country-section ul {
+    	    list-style-type: disc; 
+    	    margin-left: 1.5rem;   
+    	    margin-bottom: 1rem;   
+    	}
+    	
+    	.country-section li {
+           font-size: 0.93rem;
+           line-height: 1.65;
+           color: #333;      
+           margin-bottom: 0.5rem; 
+        }
+
+        .map-legend {
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
+
+        .map-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4em;
+            font-size: 0.78rem;
+            color: #666;
+        }
+
+        .map-legend-swatch {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        /* ── Back link ─────────────────────────────────────── */
+        .back-top {
+            display: inline-block;
+            margin-top: 1rem;
+            font-family: monospace;
+            font-size: 0.78rem;
+            color: #bbb;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+            transition: color 0.15s;
+        }
+
+        .back-top:hover { color: #555; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+</nav>
+
+<h1>Countries i've visited</h1>
+
+<table id="place-table">
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Year (1st visit)</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody id="place-tbody"></tbody>
+</table>
+
+<section class="country-section" id="italy-desc">
+    <h2>Italy</h2>
+    <div class="meta">Born here · lived most of my life here</div>
+
+    <div class="map-wrap">
+        <img src="assets/media/italyplaces.webp" alt="Map of Italian regions visited">
+        <div class="map-legend">
+            <div class="map-legend-item">
+                <div class="map-legend-swatch" style="background:#e07030;"></div>
+                School trip / travel stay
+            </div>
+            <div class="map-legend-item">
+                <div class="map-legend-swatch" style="background:#b91c1c;"></div>
+                Personal trip / place i lived
+            </div>
+        </div>
+    </div>
+    <p>
+    	Italy is where i was born and raised, so writing about it feels strange; you don't really
+    	"visit" the place you call home. But i've moved around enough inside it to have real opinions.
+    	Some regions, as you can see, i visited with school trips like Borromeo islands (Piemonte), 
+    	Comacchio (Emilia Romagna), Ravenna (Emilia Romagna).
+    	And some regions i visited by myself, in particular:
+    </p>
+
+    <ul>
+    	<li>Anzio/Latina, Rome (Lazio): where i took half day to go to Vatican City as well</li>
+    	<li>Verona, Venezia (Veneto): i prefer lakes over seas/oceans and Garda lake is one of my favourites.</li>
+    	<li>Brescia, Cremona, Milano (Lombardy): my home towns.</li>
+    	<li>Trento, Bolzano (Trentino Alto-Adige): where i used to go hiking, especially on summer.</li>
+    </ul>
+    
+    <a class="back-top" href="#">↑ back to top</a>
+</section>
+
+
+<section class="country-section" id="india-desc">
+    <h2>India</h2>
+    <div class="meta">2009 · origins</div>
+
+    <div class="map-wrap">
+        <img src="assets/media/indiaplaces.webp" alt="Map of Indian states visited">
+        <div class="map-legend">
+            <div class="map-legend-item">
+                <div class="map-legend-swatch" style="background:#b91c1c;"></div>
+                Visited state / region
+            </div>
+        </div>
+    </div>
+    <p>
+        My family roots are here, so the trip in 2009.  I used to stay mostly in Punjab, countryside.
+        Visited Himachal Pradesh in 2022, in particular Kullu, Rewalsar and Manali.
+        In 2024 i had a road trip from Agra to the Pink city Jaipur, in Rajasthan. First time i ridden a Dromedary; 
+        India taught me a lot of things, especially how to live a slower life and enjoy little moments, because most of things are temporary.
+        It also taught me how to deal with merchant. I got lucky that i have an indian skin, if i had been a foreigner, i would have been scammed easily.
+        Rajasthan specifically felt like another planet — the colour palette, the architecture,
+        the temperature. Jaipur is the kind of places that make you feel that European
+        cities are, by comparison, very young and very modest.
+    </p>
+
+    <p>
+        The food gap between "authentic Indian" and what gets sold as Indian food in European
+        restaurants is enormous. Not just in quality in variety. What most Europeans call "Indian
+        food" is basically one regional subset of one community's cooking.
+    </p>
+
+    <a class="back-top" href="#">↑ back to top</a>
+</section>
+
+
+<small>
+    © <a href="https://github.com/armandoahir">Armando Ahir</a>
+    &nbsp;·&nbsp;
+    site weight: <!-- SITE_WEIGHT -->293.5 kB<!-- /SITE_WEIGHT -->
+</small>
+
+<script src="assets/js/places.js"></script>
+<script>
+    (function renderPlaces() {
+        const tbody = document.getElementById('place-tbody');
+        if (!window.placeEntries || !tbody) return;
+        window.placeEntries.forEach(place => {
+            const tr = document.createElement('tr');
+
+            const tdName = document.createElement('td');
+            tdName.innerHTML = `<span class="place-name">${place.country}</span>`;
+            tr.appendChild(tdName);
+
+            const tdYear = document.createElement('td');
+            tdYear.textContent = place.year;
+            tr.appendChild(tdYear);
+
+            const tdComment = document.createElement('td');
+            let html = '';
+            if (place.comment) html += `<div class="place-comment">${place.comment}`;
+            if (place.commentId) html += ` <a href="#${place.commentId}">${place.commentLabel || 'see below ↓'}</a>`;
+            if (place.comment) html += `</div>`;
+            tdComment.innerHTML = html;
+            tr.appendChild(tdComment);
+
+            tbody.appendChild(tr);
+        });
+    })();
+</script>
+
+</body>
+</html>
