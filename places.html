@@ -31,6 +31,21 @@
     .back-top:hover { color: #555; }
   </style>
 </head>
+<script>
+document.querySelectorAll('.map-wrap a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer;';
+    const img = document.createElement('img');
+    img.src = link.href;
+    img.style.cssText = 'max-width:90%;max-height:90%;object-fit:contain;';
+    overlay.appendChild(img);
+    overlay.onclick = () => overlay.remove();
+    document.body.appendChild(overlay);
+  });
+});
+</script>
 <body data-page="places">
 <h1>Countries i've visited</h1>
 
@@ -49,8 +64,8 @@
   <h2>Italy</h2>
   <div class="meta">Born here · lived most of my life here</div>
   <div class="map-wrap">
-    <a href="assets/media/italyplaces.webp" target="_blank">
-    <img src="assets/media/italyplaces-thumb.webp"
+    <a href="assets/media/italyplaces.webp">
+    <img src="assets/media/italyplaces.webp"
     	 alt="Map of Italian regions visited"
     	 width="340"
     	 height="auto"
@@ -75,8 +90,8 @@
   <h2>India</h2>
   <div class="meta">2009 · origins</div>
   <div class="map-wrap">
-    <a href="assets/media/indiaplaces.webp" target="_blank">
-      <img src="assets/media/indiaplaces-thumb.webp" 
+    <a href="assets/media/indiaplaces.webp">
+      <img src="assets/media/indiaplaces.webp" 
            alt="Map of Indian states visited"
            width="340" 
            height="auto"
