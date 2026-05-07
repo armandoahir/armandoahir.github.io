@@ -1,97 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arma. | birding</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arma. | birding</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-
-<nav>
-    <a href="index.html">home</a>
-    <a href="about.html">about</a>
-</nav>
+<body data-page="birding">
+<script src="assets/js/components.js"></script>
 
 <div class="birding-header">
-    <span class="birding-count"><span id="species-count">0</span> species ·</span>
-    <span id="dynamic-date"></span>
+  <span class="birding-count"><span id="species-count">0</span> species ·</span>
+  <span id="dynamic-date"></span>
 </div>
 
 <div class="bird-grid">
-    <ul class="bird-col" id="col-left"></ul>
-    <ul class="bird-col" id="col-right"></ul>
+  <ul class="bird-col" id="col-left"></ul>
+  <ul class="bird-col" id="col-right"></ul>
 </div>
 
 <div class="birding-footer">
-    Photos from Cornell Lab Macaulay Library
+  Photos from Cornell Lab Macaulay Library
 </div>
-
-<small>
-    © <a href="https://github.com/armandoahir">Armando Ahir</a>
-    &nbsp;·&nbsp;
-    site weight: <!-- SITE_WEIGHT -->239.2 kB<!-- /SITE_WEIGHT -->
-</small>
 
 <script src="assets/js/birds.js"></script>
 <script>
-    const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById('dynamic-date').textContent =
-        'updated ' + window.lastUpdated.toLocaleDateString('en-US', dateOptions);
+  const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById('dynamic-date').textContent =
+    'updated ' + window.lastUpdated.toLocaleDateString('en-US', dateOptions);
 
-    function createBirdItem(bird) {
-        const li = document.createElement('li');
+  function createBirdItem(bird) {
+    const li   = document.createElement('li');
+    const link = document.createElement('a');
+    link.href      = bird.img;
+    link.target    = '_blank';
+    link.rel       = 'noopener noreferrer';
+    link.className = 'bird-item';
 
-        const link = document.createElement('a');
-        link.href = bird.img;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.className = "bird-item";
+    const img   = document.createElement('img');
+    img.src       = bird.img;
+    img.className = 'bird-thumb';
+    img.loading   = 'lazy';
+    img.alt       = bird.common;
+    link.appendChild(img);
 
-        const img = document.createElement('img');
-        img.src = bird.img;
-        img.className = "bird-thumb";
-        img.loading = "lazy";
-        img.alt = bird.common;
-        link.appendChild(img);
+    const info   = document.createElement('div');
+    info.style.minWidth = '0';
+    info.style.flex     = '1';
 
-        const info = document.createElement('div');
-        info.style.minWidth = '0';
-        info.style.flex = '1';
+    const common       = document.createElement('div');
+    common.className   = 'bird-common';
+    common.textContent = bird.common;
 
-        const common = document.createElement('div');
-        common.className = "bird-common";
-        common.textContent = bird.common;
+    const latin       = document.createElement('div');
+    latin.className   = 'bird-latin';
+    latin.textContent = bird.latin;
 
-        const latin = document.createElement('div');
-        latin.className = "bird-latin";
-        latin.textContent = bird.latin;
+    info.appendChild(common);
+    info.appendChild(latin);
+    link.appendChild(info);
 
-        info.appendChild(common);
-        info.appendChild(latin);
-        link.appendChild(info);
+    const date       = document.createElement('span');
+    date.className   = 'bird-date';
+    date.textContent = bird.date;
+    link.appendChild(date);
 
-        const date = document.createElement('span');
-        date.className = "bird-date";
-        date.textContent = bird.date;
-        link.appendChild(date);
+    li.appendChild(link);
+    return li;
+  }
 
-        li.appendChild(link);
-        return li;
-    }
+  function render() {
+    const mid   = Math.ceil(window.birdEntries.length / 2);
+    const left  = document.getElementById('col-left');
+    const right = document.getElementById('col-right');
+    left.innerHTML  = '';
+    right.innerHTML = '';
+    window.birdEntries.slice(0, mid).forEach(b => left.appendChild(createBirdItem(b)));
+    window.birdEntries.slice(mid).forEach(b => right.appendChild(createBirdItem(b)));
+    document.getElementById('species-count').textContent = window.birdEntries.length;
+  }
 
-    function render() {
-        const mid = Math.ceil(window.birdEntries.length / 2);
-        const left = document.getElementById('col-left');
-        const right = document.getElementById('col-right');
-        left.innerHTML = '';
-        right.innerHTML = '';
-        window.birdEntries.slice(0, mid).forEach(b => left.appendChild(createBirdItem(b)));
-        window.birdEntries.slice(mid).forEach(b => right.appendChild(createBirdItem(b)));
-        document.getElementById('species-count').textContent = window.birdEntries.length;
-    }
-
-    render();
+  render();
 </script>
+
 </body>
 </html>

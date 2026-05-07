@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arma. | books</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arma. | books</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-
-<nav>
-    <a href="index.html">home</a>
-    <a href="about.html">about</a>
-</nav>
+<body data-page="books">
+<script src="assets/js/components.js"></script>
 
 <h1>Books i've read</h1>
 
 <div id="books-list"></div>
 
-<small>
-    © <a href="https://github.com/armandoahir">Armando Ahir</a>
-    &nbsp;·&nbsp;
-    site weight: <!-- SITE_WEIGHT -->239.2 kB<!-- /SITE_WEIGHT -->
-</small>
-
 <script src="assets/js/books.js"></script>
 <script>
-    function renderBooks() {
-        const books = window.bookEntries;
-        const container = document.getElementById('books-list');
-        if (!books) return;
-        books.forEach(book => {
-            const entry = document.createElement('span');
-            entry.className = 'book-entry';
-            entry.innerHTML = `${book.title}<span class="book-author">— ${book.author}</span>`;
-            container.appendChild(entry);
-        });
-    }
-    renderBooks();
+  function renderBooks() {
+    const books     = window.bookEntries;
+    const container = document.getElementById('books-list');
+    if (!books) return;
+    books.forEach(book => {
+      const entry       = document.createElement('span');
+      entry.className   = 'book-entry';
+      entry.innerHTML   = `${book.title}<span class="book-author">— ${book.author}</span>`;
+      container.appendChild(entry);
+    });
+  }
+  renderBooks();
 </script>
 
 </body>
