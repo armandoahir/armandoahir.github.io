@@ -61,7 +61,7 @@
   footer.innerHTML =
     `© ${year} <a href="https://github.com/armandoahir">Armando Ahir</a>` +
     `&nbsp;·&nbsp;` +
-    `site weight: <!-- SITE_WEIGHT -->237.9 kB<!-- /SITE_WEIGHT -->` +
+    `site weight: <!-- SITE_WEIGHT -->240.9 kB<!-- /SITE_WEIGHT -->` +
     `&nbsp;·&nbsp;` +
     `${visits} visits this month`;
 
