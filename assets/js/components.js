@@ -36,9 +36,7 @@
   footer.innerHTML =
     `© ${year} <a href="https://github.com/armandoahir">Armando Ahir</a>` +
     ` · ` +
-    `site weight: <SITE_WEIGHT>calculating...</SITE_WEIGHT>` + 
-    ` · ` +
-    `${visits} visits`;
+    `site weight: <SITE_WEIGHT>calculating...</SITE_WEIGHT>`;
 
   document.body.appendChild(footer);
 
