@@ -1,4 +1,4 @@
-# arma's webpage
+# arma's webpage - From  private server
 
 Personal site. Books read, birds spotted, countries visited.  
 No frameworks, no build step, no tracking. Just HTML, CSS, and a bit of JS.
