@@ -1,5 +1,5 @@
 const bookEntries = [
-{ title: "The Kreutzer Sonata", author "L. Tolstoy", date: "May 2026"},
+{ title: "The Kreutzer Sonata", author: "L. Tolstoy", date: "May 2026"},
 { title: "The death of Ivan Ilyich", author: "L. Tolstoy", date: "May 2026"},
 { title: "White nights", author: "F. Dostoevsky", date: "May 2026"},
 { title: "Animal farm", author: "G. Orwell", date: "May 2026" },
