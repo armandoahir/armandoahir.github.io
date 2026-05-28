@@ -20,7 +20,9 @@
     books.forEach(book => {
       const entry       = document.createElement('span');
       entry.className   = 'book-entry';
-      entry.innerHTML   = `${book.title}<span class="book-author">— ${book.author}</span>`;
+      entry.innerHTML   = `${book.title}
+	<span class="book-author">— ${book.author}</span>
+	<span class= "book-date">${book.date}</span>`;
       container.appendChild(entry);
     });
   }
