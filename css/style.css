@@ -272,6 +272,12 @@ code, pre {
     margin-left: 0.5rem;
 }
 
+.book-date {
+  margin-left: 12px;
+  opacity: 0.35;
+  font-size: 0.85em;
+}
+
 /* ── Birding specific ── */
 .birding-header {
     display: flex;
