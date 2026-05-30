@@ -11,7 +11,8 @@ const bookEntries = [
 { title: "The Metamorphosis", author: "F. Kafka", date: "Jan 2021" },
 { title: "Elon Musk: Tesla, SpaceX, and the quest for a fantastic future", author: "A. Vance", date: "Jan 2021" },
 { title: "The hitchhiker's guide to the Galaxy", author: "D. Adams", date: "Dec 2020" },
-{ title: "Siddartha", author: "H. Hesse", date: "Mar 2018" },
+{ title: "Siddartha", author: "H. Hesse", date: "Mar 2019" },
+{ title: "The strange library", author: "H. Murakami", date: "Apr 2018"},
 { title: "Milk and honey", author: "R. Kaur", date: "Feb 2017" },
 { title: "Rich dad poor dad", author: "R. Kyiosaki", date: "Aug 2016" }
 ];
