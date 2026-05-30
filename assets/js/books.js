@@ -14,7 +14,8 @@ const bookEntries = [
 { title: "Siddartha", author: "H. Hesse", date: "Mar 2019" },
 { title: "The strange library", author: "H. Murakami", date: "Apr 2018"},
 { title: "Milk and honey", author: "R. Kaur", date: "Feb 2017" },
-{ title: "Rich dad poor dad", author: "R. Kyiosaki", date: "Aug 2016" }
+{ title: "Rich dad poor dad", author: "R. Kyiosaki", date: "Aug 2016" },
+{ title: "George's Secret Key to the Universe", author: "L&S. Hawking", date: "Jun 2016"}
 ];
 
 window.bookEntries = bookEntries;
