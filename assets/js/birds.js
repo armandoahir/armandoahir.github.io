@@ -42,7 +42,8 @@ const birdEntries = [
   { common: "Western jackdown", latin: "Coloeus monedula", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/611135886/320" },
   { common: "Great cormorant", latin: "Phalacrocorax carbo", date: "19.04.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66026521/320" },
   { common: "Spotted flycatcher", latin: "Muscicapa striata", date: "23.05.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/613402295/320" },
-  { common: "Cirl bunting", latin: "Emberiza cirlus", date: "29.07.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/169219721/320" }
+  { common: "Cirl bunting", latin: "Emberiza cirlus", date: "29.07.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/169219721/320" },
+  { common: "Eurasian jay" , latin: "Garrulus glandarius", date: "30.08.2026", img:"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252252921/320" }
 ];
 
 const lastUpdated = birdEntries
