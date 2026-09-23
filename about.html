@@ -65,8 +65,31 @@ If you want to contact me, you can send me an<strong><br>
 
 <script>
   const start = new Date(2025, 8, 23);
-  const diff  = Math.floor((new Date() - start) / 86400000);
-  document.getElementById('counter').textContent = Math.max(diff, 0);
+  const now = new Date();
+
+  const totalDays = Math.floor((now - start) / 86400000);
+
+  if (totalDays <= 0) {
+    document.getElementById('counter').textContent = "0 days";
+  } else {
+    const oneYearAgo = new Date(start);
+    oneYearAgo.setFullYear(start.getFullYear() + 1);
+    
+    if (now >= oneYearAgo) {
+      const daysAfterYear = Math.floor((now - oneYearAgo) / 86400000);
+      
+      // Se siamo esattamente all'anniversario (0 giorni dopo), mostra solo "1 year"
+      if (daysAfterYear === 0) {
+        document.getElementById('counter').textContent = "1 year";
+        // Nota: in questo caso in about.html la parola "days" dopo il tag span andrebbe gestita o rimossa, 
+        // oppure puoi includere l'intera frase dinamica nel JS.
+      } else {
+        document.getElementById('counter').textContent = `1 year and ${daysAfterYear} days`;
+      }
+    } else {
+      document.getElementById('counter').textContent = `${totalDays} days`;
+    }
+  }
 </script>
 <script src="assets/js/components.js"></script>
 </body>
