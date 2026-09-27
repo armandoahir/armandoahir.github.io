@@ -1,4 +1,5 @@
 const bookEntries = [
+{ title: "The Master and Margarita", author: "M. Bulgakov" , date: "Currently reading"},
 { title: "Meditations", author: "Emp. M. Aurelius", date: "Currently reading"},
 { title: "The Kreutzer Sonata", author: "L. Tolstoy", date: "Jun 2026"},
 { title: "The death of Ivan Ilyich", author: "L. Tolstoy", date: "May 2026"},
