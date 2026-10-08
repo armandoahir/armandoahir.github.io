@@ -45,7 +45,8 @@ const birdEntries = [
   { common: "Cirl bunting", latin: "Emberiza cirlus", date: "29.07.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/169219721/320" },
   { common: "Pygmy cormorant", latin: "Microcarbo pygmaeus", date: "30.08.2026", img:"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258089531/320"}, 
   { common: "Eurasian jay" , latin: "Garrulus glandarius", date: "30.08.2026", img:"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252252921/320" },
-  { common: "Common kingfisher", latin: "Alcedo atthis", date: "13.09.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/168729731/320"}
+  { common: "Common kingfisher", latin: "Alcedo atthis", date: "13.09.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/168729731/320"},
+  { common: "Little owl", latin: "Athene noctua", date: "09.10.2026", img: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/255114031/320"}
 ];
 
 const lastUpdated = birdEntries
